@@ -12,6 +12,12 @@
 | [React](https://github.com/discord-open-source/discord-react)               | All discord-css components for React                                                                                               |
 | [React-Native](https://github.com/discord-open-source/discord-react-native) | All discord-css components for React-Native                                                                                        |
 
+## Motivation
+
+Discord Open Source aims to be a full one-on-one clone of Discord, adding more features that can be used as a replacement for the official client and still connect and host private Discord server instances.
+Discord Open Source aims to give the best possible user experience, while combining Discord's UI, features and adding new ones/improving old ones.
+
+
 ## Get started
 
 ```bash
