@@ -31,3 +31,4 @@ if we are finished we'll host our own instance.
 ```
 
 ## Contribute
+First of all, [read this issue](https://github.com/discord-open-source/discord-open-source/issues/10)
