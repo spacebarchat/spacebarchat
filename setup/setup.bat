@@ -5,12 +5,13 @@ ECHO 	v0.1 ~xnacly
 ECHO.
 ECHO str+c/str+d to exit
 ECHO 1: /discord-dashboard.git
-ECHO 2: /discord-server.git
+ECHO 2: /discord-api.git
 ECHO 3: /discord-cdn.git
 ECHO 4: /discord-client.git
 ECHO 5: /discord-react-native.git
 ECHO 6: /discord-react.git
 ECHO 7: /discord-css.git
+ECHO 8: /discord-gateway.git
 ECHO A: all of the above
 ECHO.
 CHOICE /c 1234567a /m "decide what repos to install"
@@ -30,7 +31,8 @@ cd ..
 mkdir discord-open-source-repos
 cd discord-open-source-repos
 git clone https://github.com/discord-open-source/discord-dashboard.git
-git clone https://github.com/discord-open-source/discord-server.git
+git clone https://github.com/discord-open-source/discord-api.git
+git clone https://github.com/discord-open-source/discord-gateway.git
 git clone https://github.com/discord-open-source/discord-cdn.git
 git clone https://github.com/discord-open-source/discord-client.git
 git clone https://github.com/discord-open-source/discord-react-native.git
