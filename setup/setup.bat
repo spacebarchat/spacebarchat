@@ -47,6 +47,7 @@ ECHO.
 git clone https://github.com/discord-open-source/discord-api api
 git clone https://github.com/discord-open-source/discord-gateway gateway
 git clone https://github.com/discord-open-source/discord-voice voice
+git clone https://github.com/discord-open-source/discord-server-util server-util
 git clone https://github.com/discord-open-source/discord-cdn cdn
 git clone https://github.com/discord-open-source/discord-css design
 git clone https://github.com/discord-open-source/discord-client client
@@ -56,7 +57,7 @@ git clone https://github.com/discord-open-source/discord-dashboard dashboard
 
 where /q code
 IF ERRORLEVEL 0 (
-	echo {"folders":[{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> discord-open-source.code-workspace
+	echo {"folders":[{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> discord-open-source.code-workspace
 
 	ECHO Opening VSCode Workspace
 	code discord-open-source.code-workspace
