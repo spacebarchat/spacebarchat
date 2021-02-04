@@ -25,9 +25,9 @@ if we are finished we'll host our own instance.
 ## Get started
 
 ```bash
->>> git clone https://github.com/discord-open-source/discord-open-source.git discord-open-source
->>> cd discord-open-source/setup
->>> setup
+git clone https://github.com/discord-open-source/discord-open-source.git discord-open-source
+cd discord-open-source/setup
+setup
 ```
 
 ## Contribute
