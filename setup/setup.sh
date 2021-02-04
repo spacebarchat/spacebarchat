@@ -15,13 +15,13 @@ fi
 echo ---------------------
 echo Checking dependencies
 if ! [ -x "$(command -v git)" ]; then
-  echo 'Error: git is not installed.' >&2
+  echo Error: git is not installed.
   echo Please Install git from: https://git-scm.com/downloads
   echo And make sure its in the path
   exit 1
 fi
 if ! [ -x "$(command -v node)" ]; then
-  echo 'Error: node is not installed.' >&2
+  echo Error: node is not installed.
   echo Please Install NodeJS from: https://nodejs.org/en/download/
   echo And make sure its in the path
   exit 1
@@ -32,7 +32,7 @@ if ! [ -x "$(command -v npm)" ]; then
   echo And make sure its in the path
   exit 1
 fi
-echo ✓ All Dependencies Installed
+echo ✓ Dependencies are already Installed
 echo -------------------------------
 echo Creating organization directory
 cd ../../
@@ -41,6 +41,7 @@ mkdir discord-open-source
 mv overview discord-open-source/
 cd discord-open-source
 echo Cloning all repositories
+
 git clone https://github.com/discord-open-source/discord-api api
 git clone https://github.com/discord-open-source/discord-gateway gateway
 git clone https://github.com/discord-open-source/discord-voice voice
@@ -50,6 +51,7 @@ git clone https://github.com/discord-open-source/discord-client client
 git clone https://github.com/discord-open-source/discord-react react
 git clone https://github.com/discord-open-source/discord-react-native react-native
 git clone https://github.com/discord-open-source/discord-dashboard dashboard
+
 if [ -x "$(command -v code)" ]; then
   echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}' >> discord-open-source.code-workspace
   echo Open VSCode Workspace
