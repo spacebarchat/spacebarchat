@@ -43,6 +43,7 @@ cd discord-open-source
 echo Cloning all repositories
 
 git clone https://github.com/discord-open-source/discord-api api
+git clone https://github.com/discord-open-source/discord-server-util server-util
 git clone https://github.com/discord-open-source/discord-gateway gateway
 git clone https://github.com/discord-open-source/discord-voice voice
 git clone https://github.com/discord-open-source/discord-cdn cdn
@@ -53,7 +54,7 @@ git clone https://github.com/discord-open-source/discord-react-native react-nati
 git clone https://github.com/discord-open-source/discord-dashboard dashboard
 
 if [ -x "$(command -v code)" ]; then
-  echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}' >> discord-open-source.code-workspace
+  echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}' >> discord-open-source.code-workspace
   echo Open VSCode Workspace
   code discord-open-source.code-workspace
 fi
