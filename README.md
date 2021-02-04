@@ -7,6 +7,7 @@
 | [CSS](https://github.com/discord-open-source/discord-css)                   | Unofficial css framework in the style of Discord.                                                                                  |
 | [API](https://github.com/discord-open-source/discord-API)             | Discord API server for discord-client                                                                                                  |
 | [Gateway](https://github.com/discord-open-source/discord-gateway)             | Discord Gateway for discord-client                                                                                                  |
+| [Server-Util](https://github.com/discord-open-source/discord-server-util) | Utility functions for the all server repositories
 | [Dashboard](https://github.com/discord-open-source/discord-dashboard)       | An admin dashboard for discord-server                                                                                              |
 | [Client](https://github.com/discord-open-source/discord-client)             | Discord Client for discord-server                                                                                                  |
 | [CDN](https://github.com/discord-open-source/discord-cdn)                   | [Content-delivery-network](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) for the server, used to store images and assets |
