@@ -4,12 +4,12 @@
 
 | Repo name                                                                   | Brief description                                                                                                                  |
 | :-------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| [CSS](https://github.com/discord-open-source/discord-css)                   | Unofficial css framework in the style of Discord.                                                                                  |
-| [API](https://github.com/discord-open-source/discord-API)             | Discord API server for discord-client                                                                                                  |
-| [Gateway](https://github.com/discord-open-source/discord-gateway)             | Discord Gateway for discord-client                                                                                                  |
+| [CSS](https://github.com/discord-open-source/discord-css)                   | Open Source CSS framework in the style of Discord.                                                                                  |
+| [API](https://github.com/discord-open-source/discord-API)             | Discord HTTP API Server for discord-client                                                                                                  |
+| [Gateway](https://github.com/discord-open-source/discord-gateway)             | Discord WebSocket Gateway Server for discord-client                                                                                                  |
 | [Server-Util](https://github.com/discord-open-source/discord-server-util) | Utility functions for the all server repositories
-| [Dashboard](https://github.com/discord-open-source/discord-dashboard)       | An admin dashboard for discord-server                                                                                              |
-| [Client](https://github.com/discord-open-source/discord-client)             | Discord Client for discord-server                                                                                                  |
+| [Dashboard](https://github.com/discord-open-source/discord-dashboard)       | An admin dashboard for discord-server (analytics, settings)                                                                                              |
+| [Client](https://github.com/discord-open-source/discord-client)             | Open Source Discord Client compatible with discord-server and discord.com                                                                                                  |
 | [CDN](https://github.com/discord-open-source/discord-cdn)                   | [Content-delivery-network](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) for the server, used to store images and assets |
 | [React](https://github.com/discord-open-source/discord-react)               | All discord-css components for React                                                                                               |
 | [React-Native](https://github.com/discord-open-source/discord-react-native) | All discord-css components for React-Native                                                                                        |
