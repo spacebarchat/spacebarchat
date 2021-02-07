@@ -65,5 +65,6 @@ IF ERRORLEVEL 0 (
 )
 
 :end
+ECHO finished installation
 @ECHO on
 PAUSE

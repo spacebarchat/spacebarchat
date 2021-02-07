@@ -26,7 +26,7 @@ async function login() {
 		console.log("logged in: ", rpc.user.username);
 
 		rpc.setActivity({
-			details: `Working Discord Open Source `,
+			details: `Working on Discord Open Source`,
 			state: `Collaboration open`,
 			startTimestamp,
 			largeImageKey: "logo2",
@@ -36,8 +36,7 @@ async function login() {
 				{ label: "Discord", url: "https://discord.gg/ZrnGQP6p3d" },
 				{
 					label: "Repository",
-					url:
-						"https://github.com/discord-open-source/discord-open-source",
+					url: "https://github.com/discord-open-source/discord-open-source",
 				},
 			],
 		});
@@ -45,6 +44,7 @@ async function login() {
 
 	rpc.on("disconnected", async () => {
 		console.log("disconnected");
+		await rpc.destroy();
 		await reconnect();
 	});
 
