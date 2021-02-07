@@ -44,6 +44,7 @@ MKDIR discord-open-source-workspace
 cd discord-open-source-workspace
 ECHO Cloning all repositories
 ECHO.
+git clone https://github.com/discord-open-source/discord-open-source overview
 git clone https://github.com/discord-open-source/discord-api api
 git clone https://github.com/discord-open-source/discord-gateway gateway
 git clone https://github.com/discord-open-source/discord-voice voice
@@ -57,7 +58,7 @@ git clone https://github.com/discord-open-source/discord-dashboard dashboard
 
 where /q code
 IF ERRORLEVEL 0 (
-	echo {"folders":[{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> discord-open-source.code-workspace
+	echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> discord-open-source.code-workspace
 
 	ECHO Opening VSCode Workspace
 	code discord-open-source.code-workspace
