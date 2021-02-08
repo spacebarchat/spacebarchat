@@ -10,14 +10,14 @@ ECHO if you only want to work on one specific repository
 ECHO follow their specific Getting Started Guide and exit this script
 ECHO.
 CHOICE /C YN /m "Are you sure you want to continue (y/n)?"
-IF %ERRORLEVEL% == 2 GOTO :end
+IF %ERRORLEVEL% == 2 GOTO :end1
 
 where /q git
 IF ERRORLEVEL 1 (
     ECHO Error: git is not installed.
 	ECHO Please Install git from: https://git-scm.com/downloads
 	ECHO And make sure its in the path
-    GOTO :end
+    GOTO :endrpc
 )
 
 where /q node
@@ -25,7 +25,7 @@ IF ERRORLEVEL 1 (
 	ECHO Error: node is not installed.
 	ECHO Please Install NodeJS from: https://nodejs.org/en/download/
 	ECHO And make sure its in the path
-    GOTO :end
+    GOTO :endrpc
 )
 
 where /q npm
@@ -33,7 +33,7 @@ IF ERRORLEVEL 1 (
 	ECHO 'Error: npm is not installed.' >&2
 	ECHO Please install npm from: https://nodejs.org/en/download/
 	ECHO And make sure its in the path
-    GOTO :end
+    GOTO :endrpc
 )
 echo Dependencies are already Installed
 ECHO.
@@ -57,12 +57,26 @@ git clone https://github.com/discord-open-source/discord-dashboard dashboard
 
 where /q code
 IF ERRORLEVEL 0 (
-	echo {"folders":[{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> discord-open-source.code-workspace
+CALL 	echo {"folders":[{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> discord-open-source.code-workspace
 
-	ECHO Opening VSCode Workspace
-	code discord-open-source.code-workspace
+CALL	ECHO Opening VSCode Workspace
+CALL	code discord-open-source.code-workspace
 )
 
-:end
-@ECHO on
-PAUSE
+:END1
+
+CHOICE /c yn /m "Do you want to install the Discord Rich Presence?"
+IF %ERRORLEVEL% == 2 GOTO :endrpc
+cd ..
+cd rpc
+
+
+CALL npm install
+
+CALL npm i pm2 -g
+ CALL pm2 start --name rpc index.js
+
+CALL pm2 save 
+CALL pm2-startup install
+:endrpc
+
