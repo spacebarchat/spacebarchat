@@ -1,7 +1,7 @@
 @ECHO off
 ECHO.
-ECHO Discord-Open-Source-Installer
-ECHO 	v0.1 ~xnacly
+ECHO Fosscord-Installer
+ECHO 	v0.2 
 ECHO.
 ECHO str+c/str+d to exit
 ECHO.
@@ -40,25 +40,25 @@ ECHO.
 echo Creating organization directory
 ECHO.
 CD ..\..\
-MKDIR discord-open-source-workspace
-cd discord-open-source-workspace
+MKDIR fosscord-workspace
+cd fosscord-workspace
 ECHO Cloning all repositories
 ECHO.
-git clone https://github.com/discord-open-source/discord-open-source overview
-git clone https://github.com/discord-open-source/discord-api api
-git clone https://github.com/discord-open-source/discord-gateway gateway
-git clone https://github.com/discord-open-source/discord-voice voice
-git clone https://github.com/discord-open-source/discord-server-util server-util
-git clone https://github.com/discord-open-source/discord-cdn cdn
-git clone https://github.com/discord-open-source/discord-css design
-git clone https://github.com/discord-open-source/discord-client client
-git clone https://github.com/discord-open-source/discord-react react
-git clone https://github.com/discord-open-source/discord-react-native react-native
-git clone https://github.com/discord-open-source/discord-dashboard dashboard
+git clone https://github.com/fosscord/fosscord overview
+git clone https://github.com/fosscord/fosscord-api api
+git clone https://github.com/fosscord/fosscord-gateway gateway
+git clone https://github.com/fosscord/fosscord-voice voice
+git clone https://github.com/fosscord/fosscord-server-util server-util
+git clone https://github.com/fosscord/fosscord-cdn cdn
+git clone https://github.com/fosscord/fosscord-css design
+git clone https://github.com/fosscord/fosscord-client client
+git clone https://github.com/fosscord/fosscord-react react
+git clone https://github.com/fosscord/fosscord-react-native react-native
+git clone https://github.com/fosscord/fosscord-dashboard dashboard
 
 where /q code
 IF ERRORLEVEL 0 (
-CALL	echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> discord-open-source.code-workspace
+CALL	echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> fosscord.code-workspace
 
 CALL	ECHO Opening VSCode Workspace
 CALL	code discord-open-source.code-workspace
