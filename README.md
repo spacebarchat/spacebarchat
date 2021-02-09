@@ -24,12 +24,12 @@ if we are finished we'll host our own support server.
 ## Get started
 
 ```bash
-git clone https://github.com/discord-open-source/discord-open-source.git discord-open-source
-cd discord-open-source/setup
+git clone https://github.com/fosscord/fosscord.git fosscord
+cd fosscord/setup
 setup
 ```
 
 ## Contribute
 This project is only possible by volunteers like you and me, your contribution is very much appreciated 🥺.
 
-If you want to make this project reality and and you would like to contribute then [read this issue](https://github.com/discord-open-source/discord-open-source/issues/10) first.
+If you want to make this project reality and and you would like to contribute then [read this issue](https://github.com/fosscord/fosscord/issues/10) first.
