@@ -36,25 +36,25 @@ echo ✓ Dependencies are already Installed
 echo -------------------------------
 echo Creating organization directory
 cd ../../
-mv discord-open-source overview
-mkdir discord-open-source
-mv overview discord-open-source/
-cd discord-open-source
+mv fosscord overview
+mkdir fosscord
+mv overview fosscord/
+cd fosscord
 echo Cloning all repositories
 
-git clone https://github.com/discord-open-source/discord-api api
-git clone https://github.com/discord-open-source/discord-server-util server-util
-git clone https://github.com/discord-open-source/discord-gateway gateway
-git clone https://github.com/discord-open-source/discord-voice voice
-git clone https://github.com/discord-open-source/discord-cdn cdn
-git clone https://github.com/discord-open-source/discord-css design
-git clone https://github.com/discord-open-source/discord-client client
-git clone https://github.com/discord-open-source/discord-react react
-git clone https://github.com/discord-open-source/discord-react-native react-native
-git clone https://github.com/discord-open-source/discord-dashboard dashboard
+git clone https://github.com/fosscord/fosscord-api api
+git clone https://github.com/fosscord/fosscord-server-util server-util
+git clone https://github.com/fosscord/fosscord-gateway gateway
+git clone https://github.com/fosscord/fosscord-voice voice
+git clone https://github.com/fosscord/fosscord-cdn cdn
+git clone https://github.com/fosscord/fosscord-css design
+git clone https://github.com/fosscord/fosscord-client client
+git clone https://github.com/fosscord/fosscord-react react
+git clone https://github.com/fosscord/fosscord-react-native react-native
+git clone https://github.com/fosscord/fosscord-dashboard dashboard
 
 if [ -x "$(command -v code)" ]; then
-  echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}' >> discord-open-source.code-workspace
+  echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}' >> fosscord.code-workspace
   echo Open VSCode Workspace
-  code discord-open-source.code-workspace
+  code fosscord.code-workspace
 fi
