@@ -1,6 +1,4 @@
 # Fosscord
-#### Why the name Fosscord?
-Fosscord is a combination of the abbreviation [FOSS](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software) (Free Open Source Software) and the name [Discord](http://discord.com/)
 
 ## Brief overview
 
@@ -16,25 +14,12 @@ Fosscord is a combination of the abbreviation [FOSS](https://de.wikipedia.org/wi
 | [React](https://github.com/fosscord/fosscord-react)               | All fosscord-css components for React                                                                                               |
 | [React-Native](https://github.com/fosscord/fosscord-react-native) | All fosscord-css components for React-Native                                                                                        |
 
-## Motivation
-
-Fosscord aims to be a full one-on-one clone of Discord, adding more features that can be used as a replacement for the official client and still connect and host private Fosscord server instances.
-
-Fosscord aims to give the best possible user experience, while being backwards compatible to Discord's features and adding new ones/improving old ones.
-
-The client can connect to multiple server instances without the need to open it multiple times.
-
-The client should be extensible through a secure Plugin and Theme System with own store.
-
-The server should be extensible through bots, just like discord without the need to change anything except the api endpoint.
-
-The project is open source so everyone can have a look what's going on under the hood and can be maintained and expanded by the community.
-
-Everything is configurable in the server config and everyone can add their own features, so that it is not opinionated. 
+## [Wiki](https://github.com/fosscord/fosscord/wiki)
 
 ## Support
 https://discord.gg/ZrnGQP6p3d
-if we are finished we'll host our own instance.
+
+if we are finished we'll host our own support server.
 
 ## Get started
 
