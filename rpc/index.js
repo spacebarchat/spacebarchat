@@ -26,18 +26,18 @@ async function login() {
 		console.log("logged in: ", rpc.user.username);
 
 		rpc.setActivity({
-			details: `Working Discord Open Source `,
+			details: `Fosscord`,
 			state: `Collaboration open`,
 			startTimestamp,
 			largeImageKey: "logo2",
-			largeImageText: "Discord Open Source",
+			largeImageText: "Fosscord",
 			instance: false,
 			buttons: [
 				{ label: "Discord", url: "https://discord.gg/ZrnGQP6p3d" },
 				{
 					label: "Repository",
 					url:
-						"https://github.com/discord-open-source/discord-open-source",
+						"https://github.com/fosscord/fosscord",
 				},
 			],
 		});
