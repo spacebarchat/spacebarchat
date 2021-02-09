@@ -1,4 +1,4 @@
-# discord-open-source
+# Fosscord
 
 ## Brief overview
 
@@ -16,9 +16,9 @@
 
 ## Motivation
 
-Discord Open Source aims to be a full one-on-one clone of Discord, adding more features that can be used as a replacement for the official client and still connect and host private Discord server instances.
+Fosscord aims to be a full one-on-one clone of Discord, adding more features that can be used as a replacement for the official client and still connect and host private Fosscord server instances.
 
-Discord Open Source aims to give the best possible user experience, while being backwards compatible to Discord's features and adding new ones/improving old ones.
+Fosscord aims to give the best possible user experience, while being backwards compatible to Discord's features and adding new ones/improving old ones.
 
 The client can connect to multiple server instances without the need to open it multiple times.
 
