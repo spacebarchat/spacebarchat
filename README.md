@@ -1,4 +1,6 @@
 # Fosscord
+#### Why the name Fosscord?
+Fosscord is a combination of the abbreviation [FOSS](https://de.wikipedia.org/wiki/Free/Libre_Open_Source_Software) (Free Open Source Software) and the name [Discord](http://discord.com/)
 
 ## Brief overview
 
