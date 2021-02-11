@@ -1,7 +1,7 @@
 # Fosscord
 Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**.
 
-It is a selfhostable Chat and Voice platform similar to Slack, Rocket.chat, Discord.
+It is a selfhostable Chat and Voice platform similar to Slack, Rocket.chat, Discord-compatible.
 
 
 ## [Wiki](https://github.com/fosscord/fosscord/wiki)
