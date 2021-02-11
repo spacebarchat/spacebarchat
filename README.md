@@ -1,6 +1,13 @@
 # Fosscord
+Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**.
 
-## Brief overview
+It is a selfhostable Chat and Voice platform similar to Slack, Rocket.chat, Discord.
+
+
+## [Wiki](https://github.com/fosscord/fosscord/wiki)
+
+
+## Repositories
 
 | Repo name                                                                   | Brief description                                                                                                                  |
 | :-------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
@@ -14,8 +21,6 @@
 | [CDN](https://github.com/fosscord/fosscord-cdn)                   | [Content-delivery-network](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) for the server, used to store images and assets |
 | [React](https://github.com/fosscord/fosscord-react)               | All fosscord-css components for React                                                                                               |
 | [React-Native](https://github.com/fosscord/fosscord-react-native) | All fosscord-css components for React-Native                                                                                        |
-
-## [Wiki](https://github.com/fosscord/fosscord/wiki)
 
 ## Support
 https://discord.gg/ZrnGQP6p3d
