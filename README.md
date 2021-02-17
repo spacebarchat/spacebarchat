@@ -27,14 +27,6 @@ https://discord.gg/ZrnGQP6p3d
 
 if we are finished we'll host our own support server.
 
-## Get started
-
-```bash
-git clone https://github.com/fosscord/fosscord.git fosscord
-cd fosscord/setup
-setup
-```
-
 ## Contribute
 This project is only possible by volunteers like you and me, your contribution is very much appreciated 🥺.
 
