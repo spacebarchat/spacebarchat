@@ -1,12 +1,28 @@
-# Fosscord
-Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**.
+<p align="center">
+  <img width="100"  src="/assets/logo_big_transparent.png" />
+</p>
+<h1 align="center">Fosscord</h1>
 
-It is a selfhostable Chat and Voice platform similar to Slack, Rocket.chat, Discord-compatible.
+<p>
+  <a href="https://discord.gg/ZrnGQP6p3d">
+    <img src="https://img.shields.io/discord/806142446094385153?color=7489d5&logo=discord&logoColor=ffffff" />
+  </a>
+  <img src="https://img.shields.io/static/v1?label=Status&message=Development&color=blue">
+</p>
 
-_Note: it is not finished yet_
+## [About](https://github.com/fosscord/fosscord/wiki)
+Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable Chat and Voice platform similar to Slack, Rocket.chat and Discord-compatible.
 
-## [Wiki](https://github.com/fosscord/fosscord/wiki)
+_Note: it is in development and not yet finished_
 
+- One-on-one clone of discord
+- Selfhostable
+- Open Source
+- Configurable
+- Secure
+- Decentralized
+- Extendable
+- Themable
 
 ## Repositories
 
