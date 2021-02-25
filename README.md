@@ -13,8 +13,6 @@
 ## [About](https://github.com/fosscord/fosscord/wiki)
 Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable Chat and Voice platform similar to Slack, Rocket.chat and Discord-compatible.
 
-_Note: it is in development and not yet finished_
-
 - One-on-one clone of discord
 - Selfhostable
 - Open Source
@@ -23,6 +21,15 @@ _Note: it is in development and not yet finished_
 - Decentralized
 - Extendable
 - Themable
+
+## Installation
+_it is in development and not yet finished_
+
+## Support
+https://discord.gg/ZrnGQP6p3d
+
+if we are finished we'll host our own support server.
+
 
 ## Repositories
 
@@ -38,12 +45,6 @@ _Note: it is in development and not yet finished_
 | [CDN](https://github.com/fosscord/fosscord-cdn)                   | [Content-delivery-network](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) for the server, used to store images and assets |
 | [React](https://github.com/fosscord/fosscord-react)               | All fosscord-css components for React                                                                                               |
 | [React-Native](https://github.com/fosscord/fosscord-react-native) | All fosscord-css components for React-Native                                                                                        |
-
-## Support
-https://discord.gg/ZrnGQP6p3d
-
-if we are finished we'll host our own support server.
-
 ## Contribute
 This project is only possible by volunteers like you and me, your contribution is very much appreciated 🥺.
 
