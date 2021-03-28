@@ -52,13 +52,11 @@ git clone https://github.com/fosscord/fosscord-server-util server-util
 git clone https://github.com/fosscord/fosscord-cdn cdn
 git clone https://github.com/fosscord/fosscord-css design
 git clone https://github.com/fosscord/fosscord-client client
-git clone https://github.com/fosscord/fosscord-react react
-git clone https://github.com/fosscord/fosscord-react-native react-native
 git clone https://github.com/fosscord/fosscord-dashboard dashboard
 
 where /q code
 IF ERRORLEVEL 0 (
-CALL	echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"react"},{"path":"client"},{"path":"react-native"},{"path":"dashboard"}]}> fosscord.code-workspace
+CALL	echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"client"},"path":"dashboard"}]}> fosscord.code-workspace
 
 CALL	ECHO Opening VSCode Workspace
 CALL	code discord-open-source.code-workspace
