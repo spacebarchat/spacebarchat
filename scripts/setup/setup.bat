@@ -39,7 +39,7 @@ echo Dependencies are already Installed
 ECHO.
 echo Creating organization directory
 ECHO.
-CD ..\..\
+CD ..\..\..\
 MKDIR fosscord-workspace
 cd fosscord-workspace
 ECHO Cloning all repositories
