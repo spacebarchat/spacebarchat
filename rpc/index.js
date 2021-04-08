@@ -26,9 +26,11 @@ async function login() {
 		console.log("logged in: ", rpc.user.username);
 
 		rpc.setActivity({
-			details: `Fosscord`,
+			details: `A free open source discord-compatible platform`,
 			state: `Collaboration open`,
 			startTimestamp,
+			smallImageKey: "flam3rboy",
+			smallImageText: "Working",
 			largeImageKey: "logo2",
 			largeImageText: "Fosscord",
 			instance: false,
@@ -36,8 +38,7 @@ async function login() {
 				{ label: "Discord", url: "https://discord.gg/ZrnGQP6p3d" },
 				{
 					label: "Repository",
-					url:
-						"https://github.com/fosscord/fosscord",
+					url: "https://github.com/fosscord/fosscord",
 				},
 			],
 		});
