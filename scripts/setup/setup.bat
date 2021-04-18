@@ -1,13 +1,11 @@
 @ECHO off
 ECHO.
-ECHO Fosscord-Installer
-ECHO 	v0.2 
+color 3
+type fosscord.txt
 ECHO.
-ECHO str+c/str+d to exit
-ECHO.
-ECHO This will clone and setup all repositories,
+ECHO This will clone and setup all fosscord repositories,
 ECHO if you only want to work on one specific repository
-ECHO follow their specific Getting Started Guide and exit this script
+ECHO follow their specific "Getting Started" Guide and exit this script
 ECHO.
 CHOICE /C YN /m "Are you sure you want to continue (y/n)?"
 IF %ERRORLEVEL% == 2 GOTO :end1
