@@ -5,7 +5,7 @@
 open cmd and enter this to clone and setup all repositories
 
 ```
-curl https://github.com/fosscord/fosscord/tree/main/scripts/setup --output test.bat && test.bat
+curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.bat --output test.bat && test.bat
 ```
 
 ### Linux/MacOS
