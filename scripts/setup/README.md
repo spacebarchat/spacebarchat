@@ -2,23 +2,16 @@
 
 ### Windows
 
-open cmd and enter this to clone and setup all repositories
+to setup all repositories open cmd and enter this to command
 
 ```
-curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.bat --output test.bat && test.bat
+curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.bat --output setup.bat && setup.bat
 ```
 
 ### Linux/MacOS
 
-to execute the setup script you need to grant execution permission (+x).
-To do that open your terminal and navigate to this directory `setup/` and enter this:
+to setup all repositories open the terminal and enter this to command
 
 ```
-chmod +x setup.sh
-```
-
-and then execute by double clicking or entering this in the terminal:
-
-```
-./setup.sh
+curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.sh --output setup.sh && bash setup.sh
 ```

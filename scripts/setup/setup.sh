@@ -35,24 +35,29 @@ fi
 echo ✓ Dependencies are already Installed
 echo -------------------------------
 echo Creating organization directory
-cd ../../
-mv fosscord overview
 mkdir fosscord
-mv overview fosscord/
 cd fosscord
 echo Cloning all repositories
 
+git clone https://github.com/fosscord/fosscord overview
 git clone https://github.com/fosscord/fosscord-api api
-git clone https://github.com/fosscord/fosscord-server-util server-util
+git clone https://github.com/fosscord/fosscord-gateway gateway
+git clone https://github.com/fosscord/fosscord-themes themes
+git clone https://github.com/fosscord/fosscord-plugins plugins
 git clone https://github.com/fosscord/fosscord-gateway gateway
 git clone https://github.com/fosscord/fosscord-voice voice
+git clone https://github.com/fosscord/fosscord-server-util server-util
 git clone https://github.com/fosscord/fosscord-cdn cdn
-git clone https://github.com/fosscord/fosscord-css design
+git clone https://github.com/fosscord/fosscord-ui ui
 git clone https://github.com/fosscord/fosscord-client client
 git clone https://github.com/fosscord/fosscord-dashboard dashboard
+git clone https://github.com/fosscord/fosscord-landingpage landingpage
+git clone https://github.com/fosscord/css-mediaquery css-mediaquery
+git clone https://github.com/fosscord/react-native-withcss react-native-withcss
+
+echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"ui"},{"path":"client"},{"path":"plugins"},{"path":"themes"},{"path":"landingpage"},{"path":"dashboard"},{"path":"css-mediaquery"},{"path":"react-native-withcss"}]}' >> fosscord.code-workspace
 
 if [ -x "$(command -v code)" ]; then
-  echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"design"},{"path":"client"},{"path":"dashboard"}]}' >> fosscord.code-workspace
   echo Open VSCode Workspace
   code fosscord.code-workspace
 fi
