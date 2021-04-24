@@ -1,7 +1,14 @@
 @ECHO off
 ECHO.
-type fosscord.txt
-ECHO.
+ECHO                                                                                       
+ECHO              ____     _____    ____     ____     ____     _____    ____     ____      
+ECHO             /\  _`\  /\  __`\ /\  _`\  /\  _`\  /\  _`\  /\  __`\ /\  _`\  /\  _`\    
+ECHO             \ \ \L\_\\ \ \/\ \\ \,\L\_\\ \,\L\_\\ \ \/\_\\ \ \/\ \\ \ \L\ \\ \ \/\ \  
+ECHO              \ \  _\/ \ \ \ \ \\/_\__ \ \/_\__ \ \ \ \/_/_\ \ \ \ \\ \ ,  / \ \ \ \ \ 
+ECHO               \ \ \/   \ \ \_\ \ /\ \L\ \ /\ \L\ \\ \ \L\ \\ \ \_\ \\ \ \\ \ \ \ \_\ \
+ECHO                \ \_\    \ \_____\\ `\____\\ `\____\\ \____/ \ \_____\\ \_\ \_\\ \____/
+ECHO                 \/_/     \/_____/ \/_____/ \/_____/ \/___/   \/_____/ \/_/\/ / \/___/ 
+ECHO                                                                                       \n--------------------------------
 ECHO This will clone and setup all fosscord repositories,
 ECHO if you only want to work on one specific repository
 ECHO follow their specific "Getting Started" Guide and exit this script
@@ -46,17 +53,18 @@ git clone https://github.com/fosscord/fosscord-gateway gateway
 git clone https://github.com/fosscord/fosscord-themes themes
 git clone https://github.com/fosscord/fosscord-plugins plugins
 git clone https://github.com/fosscord/fosscord-gateway gateway
-git clone https://github.com/fosscord/fosscord-voice voice
+git clone https://github.com/fosscord/fosscord-media media
 git clone https://github.com/fosscord/fosscord-server-util server-util
 git clone https://github.com/fosscord/fosscord-cdn cdn
 git clone https://github.com/fosscord/fosscord-ui ui
 git clone https://github.com/fosscord/fosscord-client client
+git clone https://github.com/fosscord/fosscord-support support
 git clone https://github.com/fosscord/fosscord-dashboard dashboard
 git clone https://github.com/fosscord/fosscord-landingpage landingpage
 git clone https://github.com/fosscord/css-mediaquery css-mediaquery
 git clone https://github.com/fosscord/react-native-withcss react-native-withcss
 
-echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"voice"},{"path":"server-util"},{"path":"ui"},{"path":"client"},{"path":"plugins"},{"path":"themes"},{"path":"landingpage"},{"path":"dashboard"},{"path":"css-mediaquery"},{"path":"react-native-withcss"}]}> fosscord.code-workspace
+echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"media"},{"path":"server-util"},{"path":"ui"},{"path":"client"},{"path":"plugins"},{"path":"themes"},{"path":"landingpage"},{"path":"dashboard"},{"path":"support"},{"path":"css-mediaquery"},{"path":"react-native-withcss"}]}> fosscord.code-workspace
 
 where /q code
 IF ERRORLEVEL 0 (
