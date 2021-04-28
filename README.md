@@ -23,6 +23,8 @@ Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**.
 -   Extendable
 -   Themeable
 
+logo by [@nwlandas](https://twitter.com/nwlandas)
+
 ## Installation
 
 _it is in development and not yet finished_
