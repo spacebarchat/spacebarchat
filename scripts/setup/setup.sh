@@ -1,12 +1,15 @@
-echo --------------------------------------
-echo Discord Open Source Contribution Setup
-echo strg+c/strg+d to exit
-echo -------------------------------------------
-echo This will clone and setup all repositories,
-echo if you only want to work on one specific repository
-echo follow their specific Getting Started Guide and exit this script
-echo ----------------------------------------------------------------
-echo "Are you sure you want to continue (y/n)?"
+#!/bin/sh
+cat << EOF
+--------------------------------------
+Discord Open Source Contribution Setup
+strg+c/strg+d to exit
+-------------------------------------------
+This will clone and setup all repositories,
+if you only want to work on one specific repository
+follow their specific Getting Started Guide and exit this script
+----------------------------------------------------------------
+EOF
+printf "Are you sure you want to continue (y/N)? "
 read -p "" CONT
 if [ "$CONT" != "y" ]; then
   echo Aborting setup
