@@ -39,13 +39,6 @@ IF ERRORLEVEL 1 (
 	ECHO And make sure its in the path
     GOTO :end
 )
-
-where /q pnpm
-IF ERRORLEVEL 1 (
-	ECHO PNPM is not installed but it is optionnal
-	ECHO You can install pnpm from: https://pnpm.io/installation
-	ECHO And make sure its in the path
-)
 echo Dependencies are already installed
 ECHO.
 echo Creating organization directory
