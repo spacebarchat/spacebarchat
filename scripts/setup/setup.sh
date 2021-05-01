@@ -29,11 +29,16 @@ if ! [ -x "$(command -v node)" ]; then
   echo And make sure its in the path
   exit 1
 fi
-if ! [ -x "$(command -v pnpm)" ]; then
+if ! [ -x "$(command -v npm)" ]; then
   echo 'Error: npm is not installed.' >&2
   echo Please install npm from: https://nodejs.org/en/download
   echo And make sure its in the path
   exit 1
+fi
+if ! [ -x "$(command -v pnpm)" ]; then
+  echo PNPM is not installed but he is optionnal
+  echo You can install pnpm from: https://pnpm.io/installation
+  echo And make sure its in the path
 fi
 echo ✓ Dependencies are already installed
 echo -------------------------------
