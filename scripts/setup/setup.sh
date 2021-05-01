@@ -69,11 +69,4 @@ select yn in "y" "n"; do
     esac
 done
 
-if ! [ -x "$(command -v pnpm)" ]; then
-  npm install -g pnpm
-  echo "pnpm=true" > "./config.sh"
-else
-  echo "pnpm=true" > "./config.sh"
-fi
-
 echo Installation finished
