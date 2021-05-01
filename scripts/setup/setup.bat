@@ -32,12 +32,19 @@ IF ERRORLEVEL 1 (
     GOTO :end
 )
 
-where /q pnpm
+where /q npm
 IF ERRORLEVEL 1 (
-	ECHO 'Error: pnpm is not installed.' >&2
+	ECHO 'Error: npm is not installed.' >&2
 	ECHO Please install npm from: https://nodejs.org/en/download
 	ECHO And make sure its in the path
     GOTO :end
+)
+
+where /q pnpm
+IF ERRORLEVEL 1 (
+	ECHO PNPM is not installed but he is optionnal
+	ECHO You can install pnpm from: https://pnpm.io/installation
+	ECHO And make sure its in the path
 )
 echo Dependencies are already installed
 ECHO.
