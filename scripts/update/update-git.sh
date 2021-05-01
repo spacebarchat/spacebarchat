@@ -7,4 +7,3 @@ for D in */; do
 	npm i
 	cd ..
 done
-echo Done
