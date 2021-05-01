@@ -1,5 +1,5 @@
 echo Update for Git...
-cd ../../../
+cd ../..
 for D in */; do
 	echo --------------
 	echo "$D";
