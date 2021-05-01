@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 ## Wihout automated scripts (for all systems)
 1. Open up a Terminal.
 1. Type this command: `curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.bat --output setup.bat && setup.bat`.
