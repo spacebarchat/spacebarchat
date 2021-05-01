@@ -9,7 +9,7 @@ if you only want to work on one specific repository
 follow their specific Getting Started Guide and exit this script
 ----------------------------------------------------------------
 EOF
-printf "Are you sure you want to continue (y/N)? "
+printf "Are you sure you want to continue (y/N)?"
 read -p "" CONT
 if [ "$CONT" != "y" ]; then
   echo Aborting setup
