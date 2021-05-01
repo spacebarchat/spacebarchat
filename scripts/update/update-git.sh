@@ -1,5 +1,5 @@
 echo Update files...
-cd ..
+cd ../..
 for D in */; do
 	echo --------------
 	echo "$D";

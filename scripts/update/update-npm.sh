@@ -1,5 +1,5 @@
 echo Update all dependancies...
-cd ..
+cd ../..
 for D in */; do
 	echo --------------
 	echo "$D";
