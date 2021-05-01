@@ -35,11 +35,6 @@ if ! [ -x "$(command -v npm)" ]; then
   echo And make sure its in the path
   exit 1
 fi
-if ! [ -x "$(command -v pnpm)" ]; then
-  echo PNPM is not installed but it is optionnal
-  echo You can install pnpm from: https://pnpm.io/installation
-  echo And make sure its in the path
-fi
 echo ✓ Dependencies are already installed
 echo -------------------------------
 echo Creating organization directory
@@ -73,5 +68,12 @@ select yn in "y" "n"; do
         No ) break;;
     esac
 done
+
+if ! [ -x "$(command -v pnpm)" ]; then
+  npm install -g pnpm
+  echo "pnpm=true" > "./config.sh"
+else
+  echo "pnpm=true" > "./config.sh"
+fi
 
 echo Installation finished
