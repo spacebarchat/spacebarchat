@@ -27,7 +27,7 @@ IF ERRORLEVEL 1 (
 where /q node
 IF ERRORLEVEL 1 (
 	ECHO Error: node is not installed.
-	ECHO Please Install NodeJS from: https://nodejs.org/en/download/
+	ECHO Please Install NodeJS from: https://nodejs.org/en/download
 	ECHO And make sure its in the path
     GOTO :end
 )
@@ -35,7 +35,7 @@ IF ERRORLEVEL 1 (
 where /q pnpm
 IF ERRORLEVEL 1 (
 	ECHO 'Error: pnpm is not installed.' >&2
-	ECHO Please install npm from: https://pnpm.io
+	ECHO Please install npm from: https://nodejs.org/en/download
 	ECHO And make sure its in the path
     GOTO :end
 )
@@ -66,6 +66,19 @@ git clone https://github.com/fosscord/react-native-withcss react-native-withcss
 
 echo {"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"media"},{"path":"server-util"},{"path":"ui"},{"path":"client"},{"path":"plugins"},{"path":"themes"},{"path":"landingpage"},{"path":"dashboard"},{"path":"support"},{"path":"css-mediaquery"},{"path":"react-native-withcss"}]}> fosscord.code-workspace
 
+CHOICE /c yn /m "Do you want to install the Discord Rich Presence?"
+IF %ERRORLEVEL% == 2 GOTO :end
+cd ..
+cd rpc
+
+npm install
+
+npm i pm2 -g
+pm2 start --name rpc index.js
+pm2 save 
+pm2-startup install
 :end
 
+ECHO finished installation
 @ECHO on
+PAUSE

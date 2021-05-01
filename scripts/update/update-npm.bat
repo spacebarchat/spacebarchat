@@ -1,0 +1,3 @@
+@ECHO off
+ECHO Update for PNPM...
+FOR /D %%a IN (%CD%\fosscord\*) do echo -------------- && echo %%~fa && cd %%~fa && npm i

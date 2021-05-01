@@ -25,13 +25,13 @@ if ! [ -x "$(command -v git)" ]; then
 fi
 if ! [ -x "$(command -v node)" ]; then
   echo Error: node is not installed.
-  echo Please Install NodeJS from: https://nodejs.org/en/download/
+  echo Please Install NodeJS from: https://nodejs.org/en/download
   echo And make sure its in the path
   exit 1
 fi
 if ! [ -x "$(command -v pnpm)" ]; then
   echo 'Error: npm is not installed.' >&2
-  echo Please install npm from: https://pnpm.io
+  echo Please install npm from: https://nodejs.org/en/download
   echo And make sure its in the path
   exit 1
 fi
@@ -60,3 +60,5 @@ git clone https://github.com/fosscord/css-mediaquery css-mediaquery
 git clone https://github.com/fosscord/react-native-withcss react-native-withcss
 
 echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"media"},{"path":"server-util"},{"path":"ui"},{"path":"client"},{"path":"plugins"},{"path":"themes"},{"path":"landingpage"},{"path":"dashboard"},{"path":"support"},{"path":"css-mediaquery"},{"path":"react-native-withcss"}]}' >> fosscord.code-workspace
+
+echo Installation finished
