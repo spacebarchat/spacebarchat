@@ -1,17 +1,19 @@
-## Getting Started
-
+# Getting Started
+## Without automated scripts
 ### Windows
+1. Open up a Terminal.
+2. Type this command: `curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.bat --output setup.bat && setup.bat`.
 
-to setup all repositories open cmd and enter this to command
+### Posix systems (MacOS, Linux...)
+1. Open up a Terminal.
+2. Type this command: `curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.sh --output setup.sh && sh setup.sh`.
 
-```
-curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.bat --output setup.bat && setup.bat
-```
+## With automated scripts
+This method need to have [Git](https://git-scm.com) installed.
+### Windows
+1. Open up a Terminal.
+2. Type this command: `git clone https://github.com/fosscord/fosscord && .\scripts\setup\setup.bat`.
 
-### Linux/MacOS
-
-to setup all repositories open the terminal and enter this to command
-
-```
-curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.sh --output setup.sh && bash setup.sh
-```
+### Posix systems (MacOS, Linux...)
+1. Open up a Terminal.
+2. Type this command: `git clone https://github.com/fosscord/fosscord && sh ./scripts/setup/setup.sh`.
