@@ -1,11 +1,10 @@
-echo Update all repositories ...
+echo Update for Git...
 cd ../../../
 for D in */; do
 	echo --------------
 	echo "$D";
 	cd $D
-	git pull
-	npm i
+	pnpm i
 	cd ..
 done
 echo Done
