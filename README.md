@@ -8,6 +8,9 @@
     <img src="https://img.shields.io/discord/806142446094385153?color=7489d5&logo=discord&logoColor=ffffff" />
   </a>
   <img src="https://img.shields.io/static/v1?label=Status&message=Development&color=blue">
+  <a href="https://crowdin.com/project/fosscord">
+    <img src="https://badges.crowdin.net/fosscord/localized.svg" alt="Crowdin" />
+  </a>
 </p>
 
 ## [About](https://github.com/fosscord/fosscord/wiki)
