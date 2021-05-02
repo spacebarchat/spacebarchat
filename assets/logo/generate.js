@@ -1,12 +1,52 @@
-const sizes = [16, 32, 64, 128, 256, 512, 1024, 2048];
-// const sizes = [1024];
-const formats = ["png", "jpg", "webp", "ico"];
-// const formats = ["png"];
+var sizes = [
+	20,
+	29,
+	32,
+	40,
+	48,
+	50,
+	55,
+	57,
+	58,
+	60,
+	64,
+	72,
+	76,
+	80,
+	80,
+	87,
+	88,
+	100,
+	114,
+	120,
+	128,
+	144,
+	152,
+	167,
+	172,
+	180,
+	180,
+	196,
+	216,
+	256,
+	512,
+	1024,
+];
+
+const density = 300;
+const quality = 100;
+const lossless = true;
+// var sizes = [16, 32, 64, 128, 256, 512, 1024, 2048];
+var sizes = [2048];
+
+var formats = ["png", "jpg", "webp", "ico"];
+var formats = ["png"];
+
 const files = ["icon.svg", "icon_fullsize.svg", "icon_round.svg"];
 // const files = ["icon.svg"];
 
-const styles = {
-	default: ``,
+var styles = {
+	// default: ``,
 	dropshadow: [
 		`#blob {
 			filter: url(#dropshadow);
@@ -21,31 +61,31 @@ const styles = {
 			</feMerge>
 		</filter>`,
 	],
-	inner_shadow: [
-		`#blob {
-			filter: url(#InnerShadow);
-		}
-		.eye {
-			filter: url(#dropshadow);
-		}`,
-		`<filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
-			<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"/>
-			<feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
-			<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
-			<feMerge>
-				<feMergeNode in="shadowMatrixOuter1"/>
-				<feMergeNode in="SourceGraphic"/>
-			</feMerge>
-		</filter>
-		<filter id="InnerShadow" height="130%">
-			<feOffset dx="0" dy="0" />
-			<feGaussianBlur stdDeviation="10" result="blurOut"/>
-			<feComposite in="SourceGraphic" in2="blurOut" operator="out" result="inverseOut"/>
-			<feFlood flood-color="black" flood-opacity="1" result="color" />
-			<feComposite in="color" in2="inverseOut" operator="in" result="shadow"/>
-			<feComposite in="shadow" in2="SourceGraphic" operator="over" />
-		</filter>`,
-	],
+	// inner_shadow: [
+	// 	`#blob {
+	// 		filter: url(#InnerShadow);
+	// 	}
+	// 	.eye {
+	// 		filter: url(#dropshadow);
+	// 	}`,
+	// 	`<filter id="dropshadow" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+	// 		<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"/>
+	// 		<feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+	// 		<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"/>
+	// 		<feMerge>
+	// 			<feMergeNode in="shadowMatrixOuter1"/>
+	// 			<feMergeNode in="SourceGraphic"/>
+	// 		</feMerge>
+	// 	</filter>
+	// 	<filter id="InnerShadow" height="130%">
+	// 		<feOffset dx="0" dy="0" />
+	// 		<feGaussianBlur stdDeviation="10" result="blurOut"/>
+	// 		<feComposite in="SourceGraphic" in2="blurOut" operator="out" result="inverseOut"/>
+	// 		<feFlood flood-color="black" flood-opacity="1" result="color" />
+	// 		<feComposite in="color" in2="inverseOut" operator="in" result="shadow"/>
+	// 		<feComposite in="shadow" in2="SourceGraphic" operator="over" />
+	// 	</filter>`,
+	// ],
 };
 
 // 84,117,244
@@ -57,12 +97,15 @@ const colors = {
 	}`,
 	white: `
 	.eye {
-		fill: black;
+		fill: white;
 	}
 	#background {
 		fill: white;
 	}
 
+	#blob {
+		fill: black;
+	}
 	svg {
 		background: black;
 	}
@@ -135,7 +178,9 @@ for (const file of files) {
 					});
 
 					execSync(
-						`sharp -i ${temp} -o ${output} --density 100 --progressive true -q 100 --lossless resize ${size}`
+						`sharp -i ${temp} -o ${output} --density ${density} --progressive true -q ${quality} ${
+							lossless ? "--lossless" : ""
+						} resize ${size}`
 					);
 					console.log(`[File] written ${output}`);
 				}
