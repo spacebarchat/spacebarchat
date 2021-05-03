@@ -1,0 +1,20 @@
+# Table of contents
+
+* [Fosscord](README.md)
+* [General](general/README.md)
+  * [Getting Started](general/setup.md)
+  * [Contribution](general/contribution.md)
+* [API](untitled-1/README.md)
+  * [Config](untitled-1/config.md)
+  * [Contributing](untitled-1/contributing.md)
+  * [Project-Structure](untitled-1/project-structure.md)
+  * [Route](untitled-1/route.md)
+  * [Testing](untitled-1/testing.md)
+* [Gateway](untitled-2/README.md)
+  * [Contribution](untitled-2/contribution.md)
+  * [Project-Structure](untitled-2/project-structure.md)
+* [Server-Util](untitled-3/README.md)
+  * [Database](untitled-3/database.md)
+  * [Permission](untitled-3/permission.md)
+* [Client](untitled-4.md)
+
