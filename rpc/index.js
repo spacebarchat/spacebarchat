@@ -29,7 +29,6 @@ async function login() {
 			details: `A free open source discord-compatible platform`,
 			state: `Collaboration open`,
 			startTimestamp,
-			smallImageKey: "flam3rboy",
 			smallImageText: "Working",
 			largeImageKey: "logo2",
 			largeImageText: "Fosscord",
