@@ -25,7 +25,7 @@ var sizes = [
 	167,
 	172,
 	180,
-	180,
+	192,
 	196,
 	216,
 	256,
@@ -37,10 +37,10 @@ const density = 300;
 const quality = 100;
 const lossless = true;
 // var sizes = [16, 32, 64, 128, 256, 512, 1024, 2048];
-var sizes = [2048];
+// var sizes = [2048];
 
 var formats = ["png", "jpg", "webp", "ico"];
-var formats = ["png"];
+// var formats = ["png"];
 
 const files = ["icon.svg", "icon_fullsize.svg", "icon_round.svg"];
 // const files = ["icon.svg"];
@@ -125,7 +125,7 @@ const colors = {
 };
 
 const { execSync } = require("child_process");
-const { readFileSync, writeFileSync } = require("fs");
+const { readFileSync, writeFileSync, existsSync } = require("fs");
 const path = require("path");
 const temp = path.join(__dirname, "temp.svg");
 
@@ -141,8 +141,10 @@ for (const file of files) {
 					const output = path.join(
 						__dirname,
 						"variants",
-						`${name}_${size}_${colorName}_${styleName}.${format}`
+						`${name}_${size}_${colorName}.${format}`
+						// `${name}_${size}_${colorName}_${styleName}.${format}`
 					);
+					if (existsSync(output)) continue;
 					var fileData = readFileSync(input, { encoding: "utf8" });
 
 					const cssEnd = fileData.indexOf(`</style>`);
