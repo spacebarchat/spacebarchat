@@ -27,6 +27,11 @@ _it is in development and not yet finished_
 
 if we are finished we'll host our own support server.
 
+### Feature Additions:
+* End to end encryption
+* Whiteboard integration
+
+
 ### Repositories
 
 | Repo name | Brief description |
