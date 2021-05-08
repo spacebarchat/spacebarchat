@@ -1,0 +1,36 @@
+[submodule "fosscord/api"]
+	path = fosscord/api
+	url = https://github.com/fosscord/fosscord-api
+[submodule "fosscord/gateway"]
+	path = fosscord/gateway
+	url = https://github.com/fosscord/fosscord-gateway
+[submodule "fosscord/themes"]
+	path = fosscord/themes
+	url = https://github.com/fosscord/fosscord-themes
+[submodule "fosscord/plugins"]
+	path = fosscord/plugins
+	url = https://github.com/fosscord/fosscord-plugins
+[submodule "fosscord/media"]
+	path = fosscord/media
+	url = https://github.com/fosscord/fosscord-media
+[submodule "fosscord/server-util"]
+	path = fosscord/server-util
+	url = https://github.com/fosscord/fosscord-server-util
+[submodule "fosscord/cdn"]
+	path = fosscord/cdn
+	url = https://github.com/fosscord/fosscord-cdn
+[submodule "fosscord/ui"]
+	path = fosscord/ui
+	url = https://github.com/fosscord/fosscord-ui
+[submodule "fosscord/client"]
+	path = fosscord/client
+	url = https://github.com/fosscord/fosscord-client
+[submodule "fosscord/dashboard"]
+	path = fosscord/dashboard
+	url = https://github.com/fosscord/fosscord-dashboard
+[submodule "fosscord/support"]
+	path = fosscord/support
+	url = https://github.com/fosscord/fosscord-support
+[submodule "fosscord/landingpage"]
+	path = fosscord/landingpage
+	url = https://github.com/fosscord/fosscord-landingpage
