@@ -1,0 +1,26 @@
+version: "3"
+services:
+    fosscord-gateway:
+        container_name: gateway
+        restart: always
+        build: gateway
+        ports:
+            - "3002:3002"
+        links:
+            - mongo
+        env_file: ./.docker/env
+    fosscord-api:
+        container_name: api
+        restart: always
+        build: api
+        ports:
+            - "3001:3001"
+    mongo:
+        container_name: mongo
+        image: mongo
+        volumes:
+            - ./.docker/data:/data/db
+            - ./.docker/mongodb/mongod.conf:/etc/mongod.conf
+        ports:
+            - "27017:27017"
+        command: ["-f", "/etc/mongod.conf"]

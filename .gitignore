@@ -1,2 +1,4 @@
 node_modules/
 .DS_STORE
+.docker/data/*
+!.docker/data/.keep
