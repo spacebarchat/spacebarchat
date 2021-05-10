@@ -15,6 +15,9 @@ services:
         build: api
         ports:
             - "3001:3001"
+        links:
+            - mongo
+        env_file: ./.docker/env
     mongo:
         container_name: mongo
         image: mongo
@@ -23,4 +26,19 @@ services:
             - ./.docker/mongodb/mongod.conf:/etc/mongod.conf
         ports:
             - "27017:27017"
-        command: ["-f", "/etc/mongod.conf"]
+        command: mongod --replSet rs0
+    mongo-init-replica:
+        image: mongo
+        command: >
+              bash -c
+                "for i in `seq 1 30`; do
+                  mongo mongo/fosscord --eval \"
+                    rs.initiate({
+                      _id: 'rs0',
+                      members: [ { _id: 0, host: 'localhost:27017' } ]})\" &&
+                  s=$$? && break || s=$$?;
+                  echo \"Tried $$i times. Waiting 5 secs...\";
+                  sleep 5;
+                done; (exit $$s)"
+        links:
+            - mongo

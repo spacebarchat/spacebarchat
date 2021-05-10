@@ -1,1 +1,1 @@
-MONGO_URL=mongodb://mongo:27017/fosscord?readPreference=secondaryPreferred
+MONGO_URL=mongodb://mongo:27017/fosscord?readPreference=secondaryPreferred?replicaSet=rs0
