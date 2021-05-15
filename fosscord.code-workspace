@@ -1,0 +1,61 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "./assets"
+		},
+		{
+			"path": "./cdn"
+		},
+		{
+			"path": "./client"
+		},
+		{
+			"path": "./docs"
+		},
+		{
+			"path": "./dashboard"
+		},
+		{
+			"path": "./gateway"
+		},
+		{
+			"path": "./fosscord.js"
+		},
+		{
+			"path": "./collection"
+		},
+		{
+			"path": "./api"
+		},
+		{
+			"path": "./landingpage"
+		},
+		{
+			"path": "./media"
+		},
+		{
+			"path": "./plugins"
+		},
+		{
+			"path": "./rpc"
+		},
+		{
+			"path": "./scripts"
+		},
+		{
+			"path": "./server-util"
+		},
+		{
+			"path": "./support"
+		},
+		{
+			"path": "./themes"
+		},
+		{
+			"path": "./ui"
+		}
+	]
+}
