@@ -27,30 +27,30 @@ Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**.
 * Extendable
 * Themeable
 
-logo by [@nwlandas](https://twitter.com/nwlandas)
+Logo by [@nwlandas](https://twitter.com/nwlandas).
 
 ### Installation
 
-_it is in development and not yet finished_
+_it is in development and not yet finished._
 
 ### Support
 
 [https://discord.gg/ZrnGQP6p3d](https://discord.gg/ZrnGQP6p3d)
 
-if we are finished we'll host our own support server.
+If we are finished we'll host our own support server.
 
 ### Feature Additions:
 * End to end encryption
 * Whiteboard integration
 
-
 ### Repositories
 
 | Repo name | Brief description |
 | :--- | :--- |
-| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord. |
+| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
 | [API](https://github.com/fosscord/fosscord-API) | Fosscord HTTP API Server for fosscord-client |
 | [Gateway](https://github.com/fosscord/fosscord-gateway) | Fosscord WebSocket Gateway Server for fosscord-client |
+  [Docs](https://github.com/fosscord/fosscord-docs) | Documentation for Fosscord |
 | [Voice/Video](https://github.com/fosscord/fosscord-voice) | Fosscord voice and video server |
 | [Server-Util](https://github.com/fosscord/fosscord-server-util) | Utility functions for the all server repositories |
 | [Dashboard](https://github.com/fosscord/fosscord-dashboard) | An admin dashboard for fosscord-server \(analytics, settings, administration, trust & safety\) |
