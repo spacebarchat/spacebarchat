@@ -34,3 +34,12 @@
 [submodule "fosscord/landingpage"]
 	path = landingpage
 	url = https://github.com/fosscord/fosscord-landingpage
+[submodule "docs"]
+	path = docs
+	url = https://github.com/fosscord/fosscord-docs
+[submodule "fosscord.js"]
+	path = fosscord.js
+	url = https://github.com/fosscord/fosscord.js/
+[submodule "collection"]
+	path = collection
+	url = https://github.com/fosscord/fosscord.js-collection
