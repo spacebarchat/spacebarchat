@@ -51,7 +51,7 @@ If we are finished we'll host our own support server.
 | [API](https://github.com/fosscord/fosscord-API) | Fosscord HTTP API Server for fosscord-client |
 | [Gateway](https://github.com/fosscord/fosscord-gateway) | Fosscord WebSocket Gateway Server for fosscord-client |
   [Docs](https://github.com/fosscord/fosscord-docs) | Documentation for Fosscord |
-| [Voice/Video](https://github.com/fosscord/fosscord-voice) | Fosscord voice and video server |
+| [WebRTC Server](https://github.com/fosscord/fosscord-rtc) | Fosscord voice and video server |
 | [Server-Util](https://github.com/fosscord/fosscord-server-util) | Utility functions for the all server repositories |
 | [Dashboard](https://github.com/fosscord/fosscord-dashboard) | An admin dashboard for fosscord-server \(analytics, settings, administration, trust & safety\) |
 | [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
