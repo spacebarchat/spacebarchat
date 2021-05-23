@@ -43,3 +43,5 @@
 [submodule "collection"]
 	path = collection
 	url = https://github.com/fosscord/fosscord.js-collection
+[submodule "api"]
+	branch = master
