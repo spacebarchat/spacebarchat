@@ -37,9 +37,35 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/fosscord/fosscord-docs
+	branch = master
 [submodule "fosscord.js"]
 	path = fosscord.js
 	url = https://github.com/fosscord/fosscord.js/
 [submodule "collection"]
 	path = collection
 	url = https://github.com/fosscord/fosscord.js-collection
+	branch = master
+[submodule "api"]
+	branch = master
+[submodule "cdn"]
+	branch = master
+[submodule "client"]
+	branch = master
+[submodule "dashboard"]
+	branch = master
+[submodule "gateway"]
+	branch = master
+[submodule "landingpage"]
+	branch = master
+[submodule "media"]
+	branch = master
+[submodule "plugins"]
+	branch = master
+[submodule "server-util"]
+	branch = master
+[submodule "support"]
+	branch = master
+[submodule "themes"]
+	branch = master
+[submodule "ui"]
+	branch = master
