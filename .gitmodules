@@ -69,3 +69,7 @@
 	branch = master
 [submodule "ui"]
 	branch = master
+[submodule "voice-gateway"]
+	branch = master
+[submodule "rtc"]
+	branch = master
