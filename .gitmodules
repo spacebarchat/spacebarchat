@@ -69,3 +69,11 @@
 	branch = master
 [submodule "ui"]
 	branch = master
+[submodule "fosscord-voice-gateway"]
+	path = fosscord-voice-gateway
+	url = https://github.com/fosscord/fosscord-voice-gateway
+	branch = master
+[submodule "fosscord-rtc"]
+	path = fosscord-rtc
+	url = https://github.com/fosscord/fosscord-rtc
+	branch = master
