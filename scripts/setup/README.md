@@ -12,5 +12,5 @@ curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setu
 1. Open Terminal
 2. Type this command:
 ```
-curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.sh --output setup.sh && sh setup.sh
+curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.sh --output setup.sh && bash setup.sh
 ```
