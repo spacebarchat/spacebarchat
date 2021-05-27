@@ -6,7 +6,7 @@
 
 ### Posix systems (MacOS, Linux...)
 1. Open up a Terminal.
-2. Type this command: `curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.sh --output setup.sh && sh setup.sh`.
+2. Type this command: `curl https://raw.githubusercontent.com/fosscord/fosscord/main/scripts/setup/setup.sh --output setup.sh && bash setup.sh`.
 
 ## With automated scripts
 To use this method, you must have [Git](https://git-scm.com) as well as [NodeJS and NPM](https://nodejs.org) installed.
@@ -16,4 +16,4 @@ To use this method, you must have [Git](https://git-scm.com) as well as [NodeJS 
 
 ### Posix systems (MacOS, Linux...)
 1. Open up a Terminal.
-2. Type this command: `git clone https://github.com/fosscord/fosscord && sh ./fosscord/scripts/setup/setup.sh`.
+2. Type this command: `git clone https://github.com/fosscord/fosscord && bash ./fosscord/scripts/setup/setup.sh`.
