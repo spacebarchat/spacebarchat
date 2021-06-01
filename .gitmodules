@@ -62,3 +62,6 @@
 	path = rtc
 	url = https://github.com/fosscord/fosscord-rtc
 	branch = master
+[submodule "rtc-js"]
+	path = rtc-js
+	url = https://github.com/fosscord/fosscord-rtc-js
