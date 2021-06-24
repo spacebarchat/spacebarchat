@@ -1,39 +1,3 @@
-[submodule "fosscord/api"]
-	path = api
-	url = https://github.com/fosscord/fosscord-api
-[submodule "fosscord/gateway"]
-	path = gateway
-	url = https://github.com/fosscord/fosscord-gateway
-[submodule "fosscord/themes"]
-	path = themes
-	url = https://github.com/fosscord/fosscord-themes
-[submodule "fosscord/plugins"]
-	path = plugins
-	url = https://github.com/fosscord/fosscord-plugins
-[submodule "fosscord/media"]
-	path = media
-	url = https://github.com/fosscord/fosscord-media
-[submodule "fosscord/server-util"]
-	path = server-util
-	url = https://github.com/fosscord/fosscord-server-util
-[submodule "fosscord/cdn"]
-	path = cdn
-	url = https://github.com/fosscord/fosscord-cdn
-[submodule "fosscord/ui"]
-	path = ui
-	url = https://github.com/fosscord/fosscord-ui
-[submodule "fosscord/client"]
-	path = client
-	url = https://github.com/fosscord/fosscord-client
-[submodule "fosscord/dashboard"]
-	path = dashboard
-	url = https://github.com/fosscord/fosscord-dashboard
-[submodule "fosscord/support"]
-	path = support
-	url = https://github.com/fosscord/fosscord-support
-[submodule "fosscord/landingpage"]
-	path = landingpage
-	url = https://github.com/fosscord/fosscord-landingpage
 [submodule "docs"]
 	path = docs
 	url = https://github.com/fosscord/fosscord-docs
@@ -41,38 +5,66 @@
 [submodule "fosscord.js"]
 	path = fosscord.js
 	url = https://github.com/fosscord/fosscord.js/
+	branch = master
 [submodule "collection"]
 	path = collection
 	url = https://github.com/fosscord/fosscord.js-collection
 	branch = master
 [submodule "api"]
+	path = api
+	url = https://github.com/fosscord/fosscord-api
 	branch = master
 [submodule "cdn"]
+	path = cdn
+	url = https://github.com/fosscord/fosscord-cdn
 	branch = master
 [submodule "client"]
+	path = client
+	url = https://github.com/fosscord/fosscord-client
 	branch = master
 [submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/fosscord/fosscord-dashboard
 	branch = master
 [submodule "gateway"]
+	path = gateway
+	url = https://github.com/fosscord/fosscord-gateway
 	branch = master
 [submodule "landingpage"]
-	branch = master
-[submodule "media"]
+	path = landingpage
+	url = https://github.com/fosscord/fosscord-landingpage
 	branch = master
 [submodule "plugins"]
+	path = plugins
+	url = https://github.com/fosscord/fosscord-plugins
 	branch = master
 [submodule "server-util"]
+	path = server-util
+	url = https://github.com/fosscord/fosscord-server-util
 	branch = master
 [submodule "support"]
+	path = support
+	url = https://github.com/fosscord/fosscord-support
 	branch = master
 [submodule "themes"]
+	path = themes
+	url = https://github.com/fosscord/fosscord-themes
 	branch = master
 [submodule "ui"]
+	path = ui
+	url = https://github.com/fosscord/fosscord-ui
 	branch = master
 [submodule "voice-gateway"]
+	path = voice-gateway
+	url = https://github.com/fosscord/fosscord-voice-gateway
 	branch = master
 [submodule "rtc"]
+	path = rtc
+	url = https://github.com/fosscord/fosscord-rtc
 	branch = master
 [submodule "client-native"]
 	path = client-native
 	url = https://github.com/fosscord/fosscord-client-native
+[submodule "rtc-js"]
+	path = rtc-js
+	url = https://github.com/fosscord/fosscord-rtc-js

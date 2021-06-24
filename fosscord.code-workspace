@@ -34,6 +34,15 @@
 			"path": "./api"
 		},
 		{
+			"path": "./rtc"
+		},
+		{
+			"path": "./rtc-js"
+		},
+		{
+			"path": "./voice-gateway"
+		},
+		{
 			"path": "./landingpage"
 		},
 		{
@@ -60,5 +69,6 @@
 		{
 			"path": "./ui"
 		}
-	]
+	],
+	"settings": {}
 }
