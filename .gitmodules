@@ -73,3 +73,6 @@
 	branch = master
 [submodule "rtc"]
 	branch = master
+[submodule "client-native"]
+	path = client-native
+	url = https://github.com/fosscord/fosscord-client-native

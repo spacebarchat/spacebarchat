@@ -13,6 +13,9 @@
 			"path": "./client"
 		},
 		{
+			"path": "./client-native"
+		},
+		{
 			"path": "./docs"
 		},
 		{
