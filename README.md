@@ -66,3 +66,18 @@ This project is only possible by volunteers like you and me, your contribution i
 
 If you want to make this project reality and and you would like to contribute then [read this issue](https://github.com/fosscord/fosscord/issues/10) first.
 
+### License
+
+Copyright (C) 2021 Fosscord and Fosscord Contributors
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation version 3 of the
+License
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see https://www.gnu.org/licenses/agpl-3.0.de.html
