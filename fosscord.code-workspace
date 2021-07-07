@@ -28,9 +28,6 @@
 			"path": "./fosscord.js"
 		},
 		{
-			"path": "./collection"
-		},
-		{
 			"path": "./api"
 		},
 		{
@@ -70,5 +67,7 @@
 			"path": "./ui"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fosscord"
+	}
 }
