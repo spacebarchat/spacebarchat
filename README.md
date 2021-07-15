@@ -1,4 +1,4 @@
-![](./assets/readme.svg)
+![](./assets/readme.svg?sanitize=true)
 
 ### Installation
 
