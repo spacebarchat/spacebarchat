@@ -25,8 +25,8 @@ services:
             - ./.docker/data:/data/db
             - ./.docker/mongodb/mongod.conf:/etc/mongod.conf
         ports:
-            - "27017:27017"
-        command: mongod --replSet rs0
+            - "27018:27018"
+        command: mongod --replSet rs0 --port 27018
         restart: unless-stopped
     mongo-init-replica:
         image: mongo
@@ -36,7 +36,7 @@ services:
                 mongo mongo/fosscord --eval \"
                   rs.initiate({
                     _id: 'rs0',
-                    members: [ { _id: 0, host: 'localhost:27017' } ]})\" &&
+                    members: [ { _id: 0, host: 'localhost:27018' } ]})\" &&
                 s=$$? && break || s=$$?;
                 echo \"Tried $$i times. Waiting 5 secs...\";
                 sleep 5;

@@ -1,5 +1,5 @@
 // process.env.MONGOMS_DEBUG = "1";
-import fs from "fs/promises";
+import fs from "fs";
 import { MongoMemoryReplSet } from "mongodb-memory-server";
 import path from "path";
 import cluster from "cluster";
@@ -25,7 +25,7 @@ if (cluster.isMaster && !process.env.masterStarted) {
 	process.env.masterStarted = "true";
 
 	(async () => {
-		await fs.mkdir(dbPath, { recursive: true });
+		fs.mkdirSync(dbPath, { recursive: true });
 
 		await mongod.start();
 		console.log(`[DB] started`);
