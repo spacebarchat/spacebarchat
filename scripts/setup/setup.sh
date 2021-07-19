@@ -61,11 +61,13 @@ git clone https://github.com/fosscord/react-native-withcss react-native-withcss
 
 echo '{"folders":[{"path":"overview"},{"path":"cdn"},{"path":"api"},{"path":"gateway"},{"path":"media"},{"path":"server-util"},{"path":"ui"},{"path":"client"},{"path":"plugins"},{"path":"themes"},{"path":"landingpage"},{"path":"dashboard"},{"path":"support"},{"path":"css-mediaquery"},{"path":"react-native-withcss"}]}' >> fosscord.code-workspace
 
-echo "Do you want to launch VS Code workspace?"
-select yn in "y" "n"; do
+
+while true; do
+   echo "Do you wish to launch the VSCode workspace?"
+    read -p "[y/n]: " yn
     case $yn in
-        Yes ) echo Opening VS Code Workspace ; code fosscord.code-workspace ; break;;
-        No ) break;;
+        [Yy]* ) echo Opening VS Code Workspace ; code fosscord.code-workspace ; break;;
+        [Nn]* ) break;;
     esac
 done
 
