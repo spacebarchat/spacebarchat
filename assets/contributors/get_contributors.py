@@ -41,11 +41,8 @@ for repo in repos:
     contr = list(map(format_contributor, contr))
     for cont in contr:
       if not cont["login"].lower() in contributors_names:
-        if not cont["login"] == "actions-user":
-          contributors_names.append(cont["login"].lower())
-          contributors.append(cont)
-        else : 
-          continue 
+        contributors_names.append(cont["login"].lower())
+        contributors.append(cont)
       else:
         continue
 
