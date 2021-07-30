@@ -14,7 +14,7 @@
   </a>
 </p>
 
-### [About](https://docs.fosscord.com/)
+### [About](https://fosscord.com/)
 
 Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable Chat, Voice and Video platform similar to Slack, Rocket.chat and Discord-compatible.
 
