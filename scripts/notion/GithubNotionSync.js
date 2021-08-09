@@ -1,6 +1,6 @@
+require("missing-native-js-functions");
 const fetch = require("node-fetch");
 const { Client } = require("@notionhq/client");
-const ntc = require("./ntc");
 const bodyParser = require("body-parser");
 const express = require("express");
 const app = express();
@@ -23,16 +23,14 @@ class GithubNotionSync {
 		this.repos = await this.getAllIssueUrls();
 
 		app.use(bodyParser({}));
-		app.post("/github", this.handleWebhook);
+		app.post("/github", this.handleWebhook.bind(this));
 		app.listen(3010, () => {
 			console.log("Github <-> Notion sync listening on :3010");
 		});
 	}
 
-	handleWebhook(req, res) {
+	async handleWebhook(req, res) {
 		const { hook, issue } = req.body;
-		if (this.githubWebhookSecret && this.githubWebhookSecret !== hook.config.secret)
-			return res.status(400).send("invalid secret");
 
 		await this.addItemToDb(GithubNotionSync.convertIssue(issue));
 		res.sendStatus(200);
@@ -160,14 +158,14 @@ class GithubNotionSync {
 					url: issue.url,
 				},
 				Number: { number: issue.number },
-				...(issue.assignee && {
+				...(issue.assignees && {
 					Assignee: {
 						multi_select: issue.assignees.map((x) => ({ name: x.login })),
 					},
 				}),
-				...(issue.label && {
+				...(issue.labels && {
 					Label: {
-						multi_select: issue.labels.map((x) => ({ name: x.name, color: ntc(x.color) })),
+						multi_select: issue.labels.map((x) => ({ name: x.name })),
 					},
 				}),
 			},
@@ -180,7 +178,7 @@ class GithubNotionSync {
 							{
 								type: "text",
 								text: {
-									content: `${issue.body?.length > 1990 ? "issue body too long" : issue.body}`,
+									content: issue.body?.slice(0, 1990) || "",
 								},
 							},
 						],
@@ -198,9 +196,13 @@ class GithubNotionSync {
 		try {
 			if (exists) {
 				if (
+					exists.properties.Name?.title?.[0].plain_text !== issue.title ||
 					exists.properties.State?.select.name !== issue.state ||
-					exists.properties.Label?.select.name !== issue.label ||
-					exists.properties.Assignee?.select.name !== issue.assignee
+					issue.labels.map((x) => x.name).missing(exists.properties.Label?.multi_select.map((x) => x.name))
+						.length ||
+					issue.assignees
+						.map((x) => x.login)
+						.missing(exists.properties.Assignee?.multi_select.map((x) => x.name)).length
 				) {
 					console.log("update existing one");
 					await this.notion.pages.update({ page_id: exists.id, properties: options.properties });
