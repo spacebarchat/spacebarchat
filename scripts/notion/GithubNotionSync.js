@@ -1,10 +1,13 @@
 const fetch = require("node-fetch");
+const { Client } = require("@notionhq/client");
 
 class GithubNotionSync {
-	constructor(config, githubOrg) {
-		this.github_auth = config.githubAuth;
-		this.notion_auth = config.notionAuth;
+	constructor(config, githubOrg, notionDatabase) {
+		this.githubAuth = config.githubAuth;
+		this.notionAuth = config.notionAuth;
+		this.databaseID = notionDatabase;
 		this.org = githubOrg;
+		this.notion = new Client({ auth: this.notionAuth });
 		this.urls = {
 			base: "https://api.github.com/",
 		};
@@ -17,7 +20,7 @@ class GithubNotionSync {
 	async getAllIssueUrls() {
 		let repos = await fetch(`${this.urls.base}orgs/${this.org}/repos`, {
 			headers: {
-				Authorization: `token ${this.github_auth}`,
+				Authorization: `token ${this.githubAuth}`,
 				"User-Agent": this.org,
 			},
 		}).then((r) => r.json());
@@ -44,7 +47,7 @@ class GithubNotionSync {
 	async getAllIssuesPerRepo(repoIssueUrl) {
 		let issues = await fetch(repoIssueUrl, {
 			headers: {
-				Authorization: `token ${this.github_auth}`,
+				Authorization: `token ${this.githubAuth}`,
 				"User-Agent": this.org,
 			},
 		}).then((r) => r.json());
@@ -59,6 +62,85 @@ class GithubNotionSync {
 				assignee: x?.assignee?.login,
 			};
 		});
+	}
+
+	async addItemToDb(issue) {
+		try {
+			const response = await this.notion.pages.create({
+				parent: { database_id: this.databaseID },
+				properties: {
+					Name: {
+						title: [
+							{
+								text: {
+									content: issue.title /*.replace(
+										/(\[.+\].)/g,
+										""
+									),*/,
+								},
+							},
+						],
+					},
+					State: {
+						select: {
+							name: issue.state,
+						},
+					},
+					// "Type of Issue": {
+					// 	select: {
+					// 		name:
+					// 			issue.title.split("]")[0].replace("[", "") ||
+					// 			"none",
+					// 	},
+					// },
+					Label: {
+						select: {
+							name: issue.label || "none",
+						},
+					},
+					Assignee: {
+						select: {
+							name: issue.assignee || "none",
+						},
+					},
+					Repo: {
+						select: {
+							name: issue.url.match(
+								/fosscord\/(fosscord-)?([\w.-]+)/
+							)[2],
+						},
+					},
+					Url: {
+						url: issue.url,
+					},
+					Number: { number: issue.number },
+				},
+				children: [
+					{
+						object: "block",
+						type: "paragraph",
+						paragraph: {
+							text: [
+								{
+									type: "text",
+									text: {
+										content: `${
+											issue.body.length > 1990
+												? "issue body too long"
+												: issue.body
+										}`,
+									},
+								},
+							],
+						},
+					},
+				],
+			});
+			console.log(response);
+		} catch (error) {
+			console.log(issue);
+			console.error(error.body);
+		}
 	}
 }
 module.exports = { GithubNotionSync };
