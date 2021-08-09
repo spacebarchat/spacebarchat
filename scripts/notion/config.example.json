@@ -1,0 +1,11 @@
+{
+	"github": {
+		"token": "",
+		"webhookSecret": "",
+		"organization": ""
+	},
+	"notion": {
+		"token": "",
+		"database_id": ""
+	}
+}
