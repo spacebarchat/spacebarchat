@@ -148,7 +148,6 @@ class GithubNotionSync {
 						name: issue.state,
 					},
 				},
-
 				Repo: {
 					select: {
 						name: GithubNotionSync.getRepoNameFromUrl(issue.url),
@@ -198,11 +197,10 @@ class GithubNotionSync {
 				if (
 					exists.properties.Name?.title?.[0].plain_text !== issue.title ||
 					exists.properties.State?.select.name !== issue.state ||
-					issue.labels.map((x) => x.name).missing(exists.properties.Label?.multi_select.map((x) => x.name))
-						.length ||
-					issue.assignees
-						.map((x) => x.login)
-						.missing(exists.properties.Assignee?.multi_select.map((x) => x.name)).length
+					JSON.stringify(issue.labels.map((x) => x.name)) !==
+						JSON.stringify(exists.properties.Label?.multi_select.map((x) => x.name)) ||
+					JSON.stringify(issue.assignees.map((x) => x.login)) !==
+						JSON.stringify(exists.properties.Assignee?.multi_select.map((x) => x.name))
 				) {
 					console.log("update existing one");
 					await this.notion.pages.update({ page_id: exists.id, properties: options.properties });
