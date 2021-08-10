@@ -23,22 +23,8 @@ async function main() {
 		do {
 			var issues = await request(`/repos/${organization}/${repo}/issues?state=all&per_page=100&page=${page}`);
 			for (const issue of issues) {
-				const replacer = [
-					"[Feature]",
-					"[BUG]",
-					"[Bug]",
-					"[Security]",
-					"[Route]",
-					"[Voice]",
-					"[Page]",
-					"[Media]",
-					"[Gateway]",
-					"[Fix]",
-					"[Plugin]",
-				];
-				const newTitle = replacer.reduce((acc, curr) => acc.replace(curr, ""), issue.title).trim();
-
-				if (newTitle !== issue.title) {
+				if (issue.labels.some((label) => label.name === "Route")) {
+					const newTitle = `Route: ${issue.title}`;
 					console.log(`old: ${issue.title}, new: ${newTitle}`, issue.number);
 					// continue;
 					await request(`/repos/${organization}/${repo}/issues/${issue.number}`, {
