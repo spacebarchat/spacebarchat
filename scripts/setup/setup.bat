@@ -58,7 +58,6 @@ git clone https://github.com/fosscord/fosscord-server-util server-util
 git clone https://github.com/fosscord/fosscord-cdn cdn
 git clone https://github.com/fosscord/fosscord-ui ui
 git clone https://github.com/fosscord/fosscord-client client
-git clone https://github.com/fosscord/fosscord-support support
 git clone https://github.com/fosscord/fosscord-dashboard dashboard
 git clone https://github.com/fosscord/fosscord-landingpage landingpage
 git clone https://github.com/fosscord/css-mediaquery css-mediaquery

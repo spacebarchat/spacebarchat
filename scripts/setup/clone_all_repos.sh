@@ -13,7 +13,6 @@ git clone git://github.com/fosscord/fosscord-plugins.git plugins
 git clone git://github.com/fosscord/fosscord-rtc.git rtc
 git clone git://github.com/fosscord/fosscord-server.git server
 git clone git://github.com/fosscord/fosscord-server-util.git server-util
-git clone git://github.com/fosscord/fosscord-support.git support
 git clone git://github.com/fosscord/fosscord-themes.git themes
 git clone git://github.com/fosscord/fosscord-ui.git ui
 git clone git://github.com/fosscord/fosscord-voice-gateway.git voice-gateway
