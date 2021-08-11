@@ -208,7 +208,8 @@ class GithubNotionSync {
 				}
 			} else {
 				console.log("adding new one");
-				this.allNotionPages.push(await this.notion.pages.create(options));
+				const index = this.allNotionPages.push(options) - 1; // directly insert it as they might be inserted twice if the webhook is triggered in very short amount of time
+				this.allNotionPages[index] = await this.notion.pages.create(options);
 			}
 		} catch (error) {
 			console.log(issue);
