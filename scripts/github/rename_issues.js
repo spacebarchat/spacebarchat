@@ -17,21 +17,20 @@ async function getRepos() {
 }
 
 async function main() {
-	const repos = await getRepos();
+	// const repos = await getRepos();
+	const repos = ["fosscord-gateway"];
+
 	for (const repo of repos) {
 		var page = 1;
 		do {
 			var issues = await request(`/repos/${organization}/${repo}/issues?state=all&per_page=100&page=${page}`);
 			for (const issue of issues) {
-				if (issue.labels.some((label) => label.name === "Route")) {
-					const newTitle = `Route: ${issue.title}`;
-					console.log(`old: ${issue.title}, new: ${newTitle}`, issue.number);
-					// continue;
-					await request(`/repos/${organization}/${repo}/issues/${issue.number}`, {
-						method: "PATCH",
-						body: JSON.stringify({ title: newTitle }),
-					});
-				}
+				console.log(`issue #${issue.number}`);
+				// continue;
+				await request(`/repos/${organization}/${repo}/issues/${issue.number}`, {
+					method: "PATCH",
+					body: JSON.stringify({ labels: ["gateway"] }),
+				});
 			}
 			page++;
 		} while (issues.length);
