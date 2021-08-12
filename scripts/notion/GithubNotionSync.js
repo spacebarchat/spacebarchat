@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 const express = require("express");
 const app = express();
 
+const PRIORITIES = ["low priority", "medium priority", "high priority"];
+
 class GithubNotionSync {
 	constructor({ github, notion }) {
 		this.githubAuth = github.token;
@@ -131,6 +133,8 @@ class GithubNotionSync {
 	}
 
 	async addItemToDb(issue) {
+		const priority = issue.labels.find((x) => PRIORITIES.includes(x.name))?.name;
+
 		const options = {
 			parent: { database_id: this.databaseID },
 			properties: {
@@ -164,7 +168,14 @@ class GithubNotionSync {
 				}),
 				...(issue.labels && {
 					Label: {
-						multi_select: issue.labels.map((x) => ({ name: x.name })),
+						multi_select: issue.labels
+							.filter((x) => !PRIORITIES.includes(x.name))
+							.map((x) => ({ name: x.name })),
+					},
+				}),
+				...(priority && {
+					Priority: {
+						select: { name: priority },
 					},
 				}),
 			},
@@ -196,6 +207,7 @@ class GithubNotionSync {
 			if (exists) {
 				if (
 					exists.properties.Name?.title?.[0].plain_text !== issue.title ||
+					exists.properties.Priority?.select.name !== priority ||
 					exists.properties.State?.select.name !== issue.state ||
 					JSON.stringify(issue.labels.map((x) => x.name)) !==
 						JSON.stringify(exists.properties.Label?.multi_select.map((x) => x.name)) ||
