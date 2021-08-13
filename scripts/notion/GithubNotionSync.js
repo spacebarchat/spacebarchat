@@ -71,7 +71,7 @@ class GithubNotionSync {
 	 * @returns array of issues for the given repo in the following json form:
 	 * ```
 	 * {
-	 *  url: 'https://api.github.com/repos/fosscord/fosscord-api/issues/78',
+	 *  url: 'https://api.github.com/repos/fosscord/fosscord-server/issues/78',
 	 *  title: '[Route] /guilds/:id/regions',
 	 *  body: '- [ ] regions',
 	 *  number: 78,
