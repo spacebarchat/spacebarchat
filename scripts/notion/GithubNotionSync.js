@@ -44,7 +44,7 @@ class GithubNotionSync {
 
 		for (let repo of this.repos) {
 			for (let issue of await this.getAllIssuesPerRepo(repo)) {
-				await this.addItemToDb(issue);
+				this.addItemToDb(issue);
 				issues++;
 			}
 		}
@@ -133,7 +133,7 @@ class GithubNotionSync {
 	}
 
 	async addItemToDb(issue) {
-		const priority = issue.labels.find((x) => PRIORITIES.includes(x.name))?.name;
+		const priority = issue.labels.find((x) => PRIORITIES.includes(x.name.toLowerCase()))?.name;
 
 		const options = {
 			parent: { database_id: this.databaseID },
@@ -169,7 +169,7 @@ class GithubNotionSync {
 				...(issue.labels && {
 					Label: {
 						multi_select: issue.labels
-							.filter((x) => !PRIORITIES.includes(x.name))
+							.filter((x) => !PRIORITIES.includes(x.name.toLowerCase()))
 							.map((x) => ({ name: x.name })),
 					},
 				}),
