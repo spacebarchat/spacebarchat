@@ -3,5 +3,5 @@ const { GithubNotionSync } = require("./GithubNotionSync");
 const sync = new GithubNotionSync(config);
 
 sync.execute()
-	.then((x) => console.log(`synced ${x} issues`))
+	.then((x) => console.log(`Successfuly synced ${x} issues!`))
 	.catch(console.error);
