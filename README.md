@@ -16,16 +16,16 @@
 
 ### [About](https://fosscord.com/)
 
-Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable Chat, Voice and Video platform similar to Slack, Rocket.chat and Discord-compatible.
+Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable configurable secure chat, voice and video platform similar to Discord.
 
-* Discord-compatible
-* Selfhostable
-* Open Source
-* Configurable
-* Secure
-* Decentralized
-* Extendable
-* Themeable
+* **Discord-compatible** (Communicate with all friends who are "still" using discord.com)
+* **Selfhostable** ([Download](https://github.com/fosscord/fosscord-server/releases))
+* **Open Source** ([GitHub Organization]())
+* **Configurable** (Configure every aspect and limits to your needs)
+* **Secure** (publicly audited and hosted FOSS software for transparent foundation in terms of security)
+* **Decentralized** (no abuse of power and doesn't have a single point of failure)
+* **Extendable** (secure and cross-platform plugin system)
+* **Themeable** (cross-platform theme system with design editor)
 
 Logo by [@nwlandas](https://twitter.com/nwlandas).
 
@@ -39,9 +39,6 @@ _it is in development and not yet finished._
 
 If we are finished we'll host our own support server.
 
-### Feature Additions:
-* End to end encryption
-* Whiteboard integration
 
 ### Repositories
 
@@ -58,7 +55,7 @@ If we are finished we'll host our own support server.
 
 This project is only possible by volunteers like you and me, your contribution is very much appreciated.
 
-If you would like to contribute then [read this issue](https://github.com/fosscord/fosscord/issues/10) first.
+If you would like to contribute then [read this guide](https://docs.fosscord.com/contributing/).
 
 ### License
 
