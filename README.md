@@ -16,7 +16,7 @@
 
 ### [About](https://fosscord.com/)
 
-Fosscord is a **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable configurable secure chat, voice and video platform similar to Discord.
+Fosscord is a **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable configurable secure chat, voice and video platform.
 
 * **Discord-compatible** (Communicate with all friends who are "still" using discord.com)
 * **Selfhostable** ([Download Server](https://github.com/fosscord/fosscord-server/releases))
@@ -31,7 +31,8 @@ Logo by [@nwlandas](https://twitter.com/nwlandas).
 
 ### Installation
 
-_it is in development and not yet finished._
+* Client coming soon
+* [Server](https://github.com/fosscord/fosscord-server/releases) (very early pre release)
 
 ### Support
 
