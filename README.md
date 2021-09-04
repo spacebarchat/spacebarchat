@@ -45,12 +45,10 @@ If we are finished we'll host our own support server.
 
 | Repo name | Brief description |
 | :--- | :--- |
-| [Server](https://github.com/fosscord/fosscord-Server) | Fosscord API + Gateway + CDN Server |
-| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
-  [Docs](https://github.com/fosscord/fosscord-docs) | Documentation for Fosscord |
+| [Server](https://github.com/fosscord/fosscord-Server) | Fosscord API + Gateway + CDN Server + WebRTC + Admin Dashboard |
 | [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
-| [~~React Native CSS~~](https://github.com/fosscord/react-native-withcss) \(archived\) | ~~Library to enable css support for the client especially for themes~~ |
-| [~~React Native Mediaquery~~](https://github.com/fosscord/css-mediaquery) \(archived\) | ~~Use CSS media queries with react native~~ |
+| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
+| [Docs](https://github.com/fosscord/fosscord-docs) | Documentation of Fosscord |
 
 ### Contribute
 
