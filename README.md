@@ -54,7 +54,7 @@ If we are finished we'll host our own support server.
 
 This project is only possible by volunteers like you and me, your contribution is very much appreciated.
 
-If you would like to contribute then [read this guide](https://docs.fosscord.com/contributing/).
+If you would like to contribute then [read this guide](https://docs.fosscord.com/contributing/server/).
 
 ### License
 
