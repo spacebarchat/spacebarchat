@@ -26,6 +26,7 @@ Fosscord is a **f**ree **o**pen **s**ource selfhostable dis**cord** compatible c
 * **Decentralized** (no abuse of power and doesn't have a single point of failure)
 * **Extendable** (secure and cross-platform plugin system)
 * **Themeable** (cross-platform theme system with design editor)
+* **Encryption** (End to end encryption with people to make a safe enviroment)
 
 Logo by [@nwlandas](https://twitter.com/nwlandas).
 
