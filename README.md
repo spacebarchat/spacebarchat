@@ -22,10 +22,11 @@ Fosscord is a **f**ree **o**pen **s**ource selfhostable dis**cord** compatible c
 * **Selfhostable** ([Download Server](https://github.com/fosscord/fosscord-server/releases))
 * **Open Source** ([GitHub Organization]())
 * **Configurable** (Configure every aspect and limits to your needs)
-* **Secure** (publicly audited and hosted FOSS software for transparent foundation in terms of security)
 * **Decentralized** (no abuse of power and doesn't have a single point of failure)
 * **Extendable** (secure and cross-platform plugin system)
 * **Themeable** (cross-platform theme system with design editor)
+* **Encrypted** (End to end encryption for secure and private conversation)
+* **Secure** (publicly audited and hosted FOSS software for transparent foundation in terms of security)
 
 Logo by [@nwlandas](https://twitter.com/nwlandas).
 
