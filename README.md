@@ -16,7 +16,7 @@
 
 ### [About](https://fosscord.com/)
 
-Fosscord is a **f**ree **o**pen **s**ource selfhostable dis**cord** compatible chat, voice and video platform
+Fosscord is a **f**ree **o**pen **s**ource **s**elfhostable dis**cord** compatible chat, voice and video platform
 
 * **Discord-compatible** (Communicate with all friends who are "still" using discord.com)
 * **Selfhostable** ([Download Server](https://github.com/fosscord/fosscord-server/releases))
