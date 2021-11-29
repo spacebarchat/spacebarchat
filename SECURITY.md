@@ -8,7 +8,8 @@ The latest release and the release on Samuel's instance are supported.
 
 Report them to Samuel, in the Fosscord Discord guild, or the server
 announcements guild at dev.fosscord.com. However, if you can fix it
-yourself, fix it yourself first and then propose a PR at this repository.
+yourself, fix it yourself first and then propose a PR at the relevant
+repository.
 
 Samuel "Flam3rboy", Founder
 "XNaCly" Matteo, Maintainer
