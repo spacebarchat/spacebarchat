@@ -8,9 +8,7 @@ Only the latest release is supported.
 
 Report them to Fosscord team, in the [Fosscord Discord guild](https://discord.gg/ZrnGQP6p3d).
 However, if you can fix it yourself, fix it yourself first and then propose
-a PR at the relevant repository.
+a PR at the relevant repository. There is **no** fast track for getting security bugs fixed
+urgently. They are still prioritised like other bugs.
 
-Samuel "Flam3rboy", Founder
-"XNaCly" Matteo, Maintainer
-Conner "Intevel", Maintainer
-Erkin Alp, security policy author
+Fosscord team
