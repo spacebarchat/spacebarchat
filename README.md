@@ -28,7 +28,7 @@ Fosscord is a **f**ree **o**pen **s**ource **s**elfhostable dis**cord** compatib
 * **Encrypted** (End to end encryption for secure and private conversation)
 * **Secure** (publicly audited and hosted FOSS software for transparent foundation in terms of security)
 
-Logo by [@nwlandas](https://twitter.com/nwlandas).
+Logo by [@Flam3rboy](https://github.com/Flam3rboy).
 
 ### Installation
 
