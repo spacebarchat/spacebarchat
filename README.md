@@ -21,8 +21,8 @@
 Fosscord is a **f**ree **o**pen **s**ource **s**elfhostable dis**cord** compatible chat, voice and video platform
 
 * **Discord-compatible** (Communicate with all friends who are "still" using discord.com)
-* **Selfhostable** ([Download Server](https://github.com/fosscord/fosscord-server/releases))
-* **Open Source** ([GitHub Organization]())
+* **Selfhostable** ([Setup Docs](https://docs.fosscord.com/setup/server/))
+* **Open Source** ([GitHub Organization](https://github.com/fosscord))
 * **Configurable** (Configure every aspect and limits to your needs)
 * **Decentralized** (no abuse of power and doesn't have a single point of failure)
 * **Extendable** (secure and cross-platform plugin system)
