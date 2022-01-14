@@ -33,7 +33,7 @@ Original logo by [@nwlandas](https://twitter.com/nwlandas).
 ### Installation
 
 * [Client](https://github.com/fosscord/fosscord-client)
-* [Server](https://github.com/fosscord/fosscord-server/releases) (very early pre release)
+* [Server](https://github.com/fosscord/fosscord)
 
 ### Support
 
