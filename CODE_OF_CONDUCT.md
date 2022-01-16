@@ -39,7 +39,7 @@ In order to have your questions resolved more quickly and efficiently, see also:
 -   If you are a moderator or otherwise have permissions above those of normal users: abusing your permissions for personal motives not compatible with this code of conduct.
 -   Continued harassment of other users.
 -   Posting explicit imagery (sexual content, displays of violence, etc.) or unwanted sexual or romantic advances towards other users.
--   Posting content that is illegal to publish or illegal to distribute without permission in Germany. This includes pro-Nazi content. The reason is that in certain cases, especially when it comes to copyright, the service provider (who might be me), may be held liable, and I do not wish to get into legal trouble.
+-   Posting content that is illegal to publish or illegal to distribute without permission in Germany. This includes pro-Nazi content. The reason is that in certain cases, especially when it comes to copyright, the service provider (who might be me), may be held liable, and we do not wish to get into legal trouble.
 -   Abusing loopholes in this code of conduct, for example doing something that is not explicitly covered by the prohibited behavior, yet is in conflict with the general idea of desirable behavior.
 
 ### Consequences of violation
@@ -49,9 +49,9 @@ In order to have your questions resolved more quickly and efficiently, see also:
 -   Any kind of violation can lead to removal of the offending content.
 -   Kicks and bans apply to all communities administrated by Fosscord maintainers group.
 
-If a moderator violates the code of conduct, make sure to point it out to me. This can lead to warnings and demotion of the moderator.
+If a moderator violates the code of conduct, make sure to point it out to the maintainers group. This can lead to warnings and demotion of the moderator.
 
-If I myself violate the code of conduct, no such possibility exists. Thus, it is important to call me out, or make one of my friends or moderators call me out. Further steps will then be discussed ad hoc.
+If one of the maintainers violate the code of conduct, no such possibility exists. Thus, it is important to call us out, or make one of our friends, colleagues or moderators call us out. Further steps will then be discussed ad hoc.
 
 ### Changes to this code of conduct
 
