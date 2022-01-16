@@ -5,7 +5,7 @@ This is the code of conduct for the Fosscord developer community. It is based on
 Fosscord developer community includes Fosscord Github repositories and Fosscord development guild.
 Fosscord developers community is administered by the Fosscord maintainers group.
 
-If you contribute to the project in any form (for example through code by a pull request) you guarantee that you have the rights to resign all rights to Fosscord under the AGPLV3 license.
+If you contribute to the project in any form (for example through code by a pull request) you guarantee that you have the rights to resign all rights to Fosscord under the AGPLv3 license.
 
 ### Desirable behavior
 
