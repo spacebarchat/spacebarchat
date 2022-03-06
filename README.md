@@ -1,10 +1,7 @@
 <p align="center">
-
   <img width="100" src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Icon-Rounded-Subtract.svg" />
-
 </p>
 <h1 align="center">Fosscord</h1>
-
 <p align="center">
    <a href="https://discord.gg/ZrnGQP6p3d">
     <img src="https://img.shields.io/discord/806142446094385153?color=7489d5&logo=discord&logoColor=ffffff" />
@@ -20,7 +17,7 @@
 
 Fosscord is a **f**ree **o**pen **s**ource **s**elfhostable dis**cord** compatible chat, voice and video platform
 
-* **Discord-compatible** (Communicate with all friends who are "still" using discord.com)
+* **Discord-compatible** (Communicate with all friends who are "still" using [discord.com](https://discord.com))
 * **Selfhostable** ([Setup Docs](https://docs.fosscord.com/setup/server/))
 * **Open Source** ([GitHub Organization](https://github.com/fosscord))
 * **Configurable** (Configure every aspect and limits to your needs)
@@ -35,30 +32,30 @@ Original logo by [@nwlandas](https://twitter.com/nwlandas).
 
 ### Installation
 
-* Client coming soon
-* [Server](https://github.com/fosscord/fosscord-server/releases) (very early pre release)
+* [Client](https://github.com/fosscord/fosscord-client)
+* [Server](https://github.com/fosscord/fosscord-server) (very early pre release)
 
 ### Support
 
-[https://discord.gg/ZrnGQP6p3d](https://discord.gg/ZrnGQP6p3d)
+[Our current discord.com Server](https://discord.gg/ZrnGQP6p3d)
 
 If we are finished we'll host our own support server.
 
 
 ### Repositories
 
-| Repo name | Brief description |
+| Repo name | Brief description
 | :--- | :--- |
-| [Server](https://github.com/fosscord/fosscord-Server) | Fosscord API + Gateway + CDN Server + WebRTC + Admin Dashboard |
-| [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
-| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
-| [Docs](https://github.com/fosscord/fosscord-docs) | Documentation of Fosscord |
+| [Server](https://github.com/fosscord/fosscord-server) | Fosscord API + Gateway + CDN Server + WebRTC + Admin Dashboard
+| [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com
+| [UI](https://github.com/fosscord/fosscord-ui)         | Open Source CSS framework in the style of Discord
+| [Docs](https://github.com/fosscord/fosscord-docs)     | Documentation of Fosscord
 
 ### Contribute
 
 This project is only possible by volunteers like you and me, your contribution is very much appreciated.
 
-If you would like to contribute then [read this guide](https://docs.fosscord.com/contributing/server/).
+If you would like to contribute then [read this guide](https://docs.fosscord.com/contributing/server).
 
 ### License
 
