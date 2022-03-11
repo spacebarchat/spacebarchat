@@ -1,8 +1,9 @@
 <p align="center">
-  <img width="100" src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Icon-Rounded-Subtract.svg" />
+  <img width="100" src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo_big_transparent.png" />
 </p>
 <h1 align="center">Fosscord</h1>
-<p align="center">
+
+<p>
    <a href="https://discord.gg/ZrnGQP6p3d">
     <img src="https://img.shields.io/discord/806142446094385153?color=7489d5&logo=discord&logoColor=ffffff" />
   </a>
@@ -13,49 +14,57 @@
   </a>
 </p>
 
-### [About](https://fosscord.com/)
+### [About](https://docs.fosscord.com/)
 
-Fosscord is a **f**ree **o**pen **s**ource **s**elfhostable dis**cord** compatible chat, voice and video platform
+Fosscord is **f**ree **o**pen **s**ource **s**oftware compatible to dis**cord**. It is a selfhostable Chat, Voice and Video platform similar to Slack, Rocket.chat and Discord-compatible.
 
-* **Discord-compatible** (Communicate with all friends who are "still" using [discord.com](https://discord.com))
-* **Selfhostable** ([Setup Docs](https://docs.fosscord.com/setup/server/))
-* **Open Source** ([GitHub Organization](https://github.com/fosscord))
-* **Configurable** (Configure every aspect and limits to your needs)
-* **Decentralized** (no abuse of power and doesn't have a single point of failure)
-* **Extendable** (secure and cross-platform plugin system)
-* **Themeable** (cross-platform theme system with design editor)
-* **Encrypted** (End to end encryption for secure and private conversation)
-* **Secure** (publicly audited and hosted FOSS software for transparent foundation in terms of security)
+* Discord-compatible
+* Selfhostable
+* Open Source
+* Configurable
+* Secure
+* Decentralized
+* Extendable
+* Themeable
 
-Logo by [@ItsRealmy](https://github.com/ItsRealmy).
-Original logo by [@nwlandas](https://twitter.com/nwlandas).
+Logo by [@nwlandas](https://twitter.com/nwlandas).
 
 ### Installation
 
-* [Client](https://github.com/fosscord/fosscord-client)
-* [Server](https://github.com/fosscord/fosscord-server) (very early pre release)
+_it is in development and not yet finished._
 
 ### Support
 
-[Our current discord.com Server](https://discord.gg/ZrnGQP6p3d)
+[https://discord.gg/ZrnGQP6p3d](https://discord.gg/ZrnGQP6p3d)
 
 If we are finished we'll host our own support server.
 
+### Feature Additions:
+* End to end encryption
+* Whiteboard integration
 
 ### Repositories
 
-| Repo name | Brief description
+| Repo name | Brief description |
 | :--- | :--- |
-| [Server](https://github.com/fosscord/fosscord-server) | Fosscord API + Gateway + CDN Server + WebRTC + Admin Dashboard
-| [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com
-| [UI](https://github.com/fosscord/fosscord-ui)         | Open Source CSS framework in the style of Discord
-| [Docs](https://github.com/fosscord/fosscord-docs)     | Documentation of Fosscord
+| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
+| [API](https://github.com/fosscord/fosscord-API) | Fosscord HTTP API Server for fosscord-client |
+| [Gateway](https://github.com/fosscord/fosscord-gateway) | Fosscord WebSocket Gateway Server for fosscord-client |
+  [Docs](https://github.com/fosscord/fosscord-docs) | Documentation for Fosscord |
+| [WebRTC Server](https://github.com/fosscord/fosscord-rtc) | Fosscord voice and video server |
+| [Voice Gateway](https://github.com/fosscord/fosscord-voice-gateway) | Fosscord voice gateway |
+| [Server-Util](https://github.com/fosscord/fosscord-server-util) | Utility functions for the all server repositories |
+| [Dashboard](https://github.com/fosscord/fosscord-dashboard) | An admin dashboard for fosscord-server \(analytics, settings, administration, trust & safety\) |
+| [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
+| [CDN](https://github.com/fosscord/fosscord-cdn) | [Content-delivery-network](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) for the server, used to store images and assets |
+| [~~React Native CSS~~](https://github.com/fosscord/react-native-withcss) \(archived\) | ~~Library to enable css support for the client especially for themes~~ |
+| [~~React Native Mediaquery~~](https://github.com/fosscord/css-mediaquery) \(archived\) | ~~Use CSS media queries with react native~~ |
 
 ### Contribute
 
 This project is only possible by volunteers like you and me, your contribution is very much appreciated.
 
-If you would like to contribute then [read this guide](https://docs.fosscord.com/contributing/server).
+If you would like to contribute then [read this issue](https://github.com/fosscord/fosscord/issues/10) first.
 
 ### License
 

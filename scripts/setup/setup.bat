@@ -48,11 +48,18 @@ cd fosscord
 ECHO Cloning all repositories
 ECHO.
 git clone https://github.com/fosscord/fosscord overview
-git clone https://github.com/fosscord/fosscord-server server
+git clone https://github.com/fosscord/fosscord-api api
+git clone https://github.com/fosscord/fosscord-gateway gateway
 git clone https://github.com/fosscord/fosscord-themes themes
 git clone https://github.com/fosscord/fosscord-plugins plugins
+git clone https://github.com/fosscord/fosscord-gateway gateway
+git clone https://github.com/fosscord/fosscord-media media
+git clone https://github.com/fosscord/fosscord-server-util server-util
+git clone https://github.com/fosscord/fosscord-cdn cdn
 git clone https://github.com/fosscord/fosscord-ui ui
 git clone https://github.com/fosscord/fosscord-client client
+git clone https://github.com/fosscord/fosscord-support support
+git clone https://github.com/fosscord/fosscord-dashboard dashboard
 git clone https://github.com/fosscord/fosscord-landingpage landingpage
 git clone https://github.com/fosscord/css-mediaquery css-mediaquery
 git clone https://github.com/fosscord/react-native-withcss react-native-withcss

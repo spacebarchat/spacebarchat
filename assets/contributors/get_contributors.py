@@ -15,7 +15,7 @@ urls = {
     "all_repos":f"/repos",
 }
 contributors = []
-contributors_names = ["flam3rboy","xnacly","intevel","stefan080106","timschweiz","actions-user"]
+contributors_names = ["flam3rboy","xnacly","intevel","stefan080106","timschweiz"]
 def get_contributors_url(n):
     if n["fork"]:
         # * excludes forks
