@@ -3,3 +3,5 @@ node_modules/
 .docker/data/*
 !.docker/data/.keep
 dist/
+private.json
+config.json

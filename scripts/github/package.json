@@ -1,0 +1,18 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rename_issues.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "node-fetch": "^2.6.1",
+    "prompts": "^2.4.1",
+    "puppeteer": "^10.2.0"
+  }
+}
