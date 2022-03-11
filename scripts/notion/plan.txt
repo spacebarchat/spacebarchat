@@ -1,4 +1,0 @@
-1. auth to github
-2. get all issues from all repos
-3. auth to notion
-4. create a card for each issue with a tag for the corressponding repo and its status (BUG, FEATURES, etc)
