@@ -1,6 +1,6 @@
-# Script to:
-# - Get all repo git urls from the fosscord orga and format them to make the process of updating the setup script less tiresome
-# - Create a workspace file for VScode
+# script to:
+# - get all repo git urls from the fosscord orga and format them to make the process of updating the setup script less tiresome
+# - create a workspace file for VScode
 
 import requests
 
@@ -17,8 +17,6 @@ for repo in response:
 
 with open("clone_all_repos.sh","w") as f:
   f.write(repos)
-  f.close()
 
 with open("fosscord.code-workspace", "w") as f:
   f.write(str(workspace).replace("'",'"'))
-  f.close()
