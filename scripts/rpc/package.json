@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord-rpc": "github:discordjs/rpc",
-    "pm2": "^4.5.4"
+    "pm2": "^5.2.0"
   }
 }
