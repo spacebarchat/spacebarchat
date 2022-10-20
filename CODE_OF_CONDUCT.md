@@ -12,6 +12,7 @@ If you contribute to the project in any form (for example through code by a pull
 -   If possible, providing help with issues other users may have. If it suits the topic of the community, answer it in there, if it does not, try to link to a community where it is more on topic.
 -   Accepting other opinions, even if you disagree. This does not exclude the possibility to provide arguments for your own opinion.
 -   Pinging moderators by mentioning their names in chat in the case of rule violations, especially trolling or spamming. While doing so, do not quote or reply to the violator to prevent extra attention by non-moderators.
+-   Please keep something we can type in your username/display name in communication channels. This allows us to reach you if we ever need to, without needing to endlessly look for you in the member list.
 
 In order to have your questions resolved more quickly and efficiently, see also: The XY problem, Don't ask to ask, No Hello and How to Ask Smart Questions
 
