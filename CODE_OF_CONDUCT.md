@@ -13,6 +13,7 @@ If you contribute to the project in any form (for example through code by a pull
 -   Accepting other opinions, even if you disagree. This does not exclude the possibility to provide arguments for your own opinion.
 -   Pinging moderators by mentioning their names in chat in the case of rule violations, especially trolling or spamming. While doing so, do not quote or reply to the violator to prevent extra attention by non-moderators.
 -   Please keep something we can type in your username/display name in communication channels. This allows us to reach you if we ever need to, without needing to endlessly look for you in the member list.
+-   Before sending a support request, we request that you look at open/closed Github issues on the relevant repository, the [documentation](https://docs.fosscord.com) and other mentions of your issue in available communication channels.
 
 In order to have your questions resolved more quickly and efficiently, see also: The XY problem, Don't ask to ask, No Hello and How to Ask Smart Questions
 
