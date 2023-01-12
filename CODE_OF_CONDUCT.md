@@ -1,60 +1,51 @@
-## Code of conduct
+# Code of Conduct
 
-This is the code of conduct for the Fosscord developer community. It is based on Artemis Lena Code of Conduct by FantasyCookie17. As it is licensed CC0, it may also be used in modified or non-modified form by other communities without permission by the author. Its purpose is to ensure a civilized, tolerant, compassionate, helpful, pluralistic and peaceful style of communication.
+By contributing to or interacting with Fosscord or Fosscord community spaces, you accept the code of conduct.
 
-Fosscord developer community includes Fosscord Github repositories and Fosscord development guild.
-Fosscord developers community is administered by the Fosscord maintainers group.
+This code of conduct is based on the Artemis Lena Code of Conduct. As it is licensed under CC0,
+it may be used by other communities in modified or unmodified form without permission from the author.
+Its purpose is to ensure a civilised, tolerant, compassionate, helpful, pluralistic, and peaceful style of communication.
 
-If you contribute to the project in any form (for example through code by a pull request) you guarantee that you have the rights to resign all rights to Fosscord under the AGPLv3 license.
+Fosscord community spaces includes Fosscord github repositories and Fosscord development guilds (be it on Discord.com or Fosscord instances mananged by the Fosscord maintainers group).
 
-### Desirable behavior
+By contributing to any Fosscord projects (for example, through pull request) you guarantee that you have the rights to resign all rights to Fosscord under the AGPLV3 license.
 
--   If possible, providing help with issues other users may have. If it suits the topic of the community, answer it in there, if it does not, try to link to a community where it is more on topic.
--   Accepting other opinions, even if you disagree. This does not exclude the possibility to provide arguments for your own opinion.
--   Pinging moderators by mentioning their names in chat in the case of rule violations, especially trolling or spamming. While doing so, do not quote or reply to the violator to prevent extra attention by non-moderators.
--   Please keep something we can type in your username/display name in communication channels. This allows us to reach you if we ever need to, without needing to endlessly look for you in the member list.
--   Before sending a support request, we request that you look at open/closed Github issues on the relevant repository, the [documentation](https://docs.fosscord.com) and other mentions of your issue in available communication channels.
+### Desirable Behaviour
 
-In order to have your questions resolved more quickly and efficiently, see also: The XY problem, Don't ask to ask, No Hello and How to Ask Smart Questions
+-   If possible, provide assistance with Fosscord projects to other users.
+-   Be respectful toward other's opinions and viewpoints.
+-   Accepting responsibility and apologizing to those affected for our mistakes.
 
-### Undesirable behavior
+### Prohibited Behaviour
 
--   Talking about things that do not suit the topic of the community. Communities exempt from this rule will mention that in their descriptions.
--   Attacking people rather than attacking their arguments (a.k.a. ad hominem).
--   Bringing extra attention by people who are not moderators to trolls and spammers.
--   Self-censorship for reasons of politeness or similar. As long as you keep it civil and free of insults, it is desirable to discuss issues you have with people directly, rather than letting it build up and later creating drama. It is in the interest of the moderators to make the rooms feel comfortable for a large amount of people, this includes changing their own behavior where necessary and reasonable. If you feel it is better to discuss in a smaller group, ask the person you have an issue with and/or a moderator whether it is fine to invite them to a private chat.
--   Making other users feel uncomfortable, for example by nagging them with questions they have stated they do not want to answer.
--   Misgendering, deadnaming and assuming gender. Use the singular they/them and inclusive language where possible.
--   Not liking the community. If you do, why don't you just leave? You would be causing discomfort to everyone else as well if you did not.
+-   Sharing leaked, proprietary source code from Discord Inc
+-   Homophobia, transphobia, etc, misgendering, deadnaming, assuming gender. You should use singular they/them when in doubt.
+-   Threats of violence
+-   Harassment
+-   Spreading hateful, violent, or discriminatory ideologies or conspiracy theories, via media or text (including avatars and nicknames)
+-   Trolling. Intentionally derailing conversations or producing discussions on non-issues.
+-   Doxing. Disclosing other's private information without their consent.
+-   Spamming. This includes sending advertisements, repeatedly sending meaningless content, sending server invites unrequested.
+-   Sharing media that may cause harm or be triggering to others, such as flashing imagery or gore.
+-   Undesired automation of services that may lead to a reduction in service quality. For example, API spam of a Fosscord instance.
+-   Ban evasion. Creation of additional accounts used to join a community after being banned from that community.
+-   Posting content that is illegal to publish or distribute in Germany.
+-   Abusing loopholes in this code of conduct, or being in conflict with the goals of this code of conduct.
 
-### Prohibited behavior
+### Consequences of Violation
 
--   Spreading hateful, violent or discriminatory ideologies or conspiracy theories, via images and other media (including avatars) or text (including nicknames), as well as discriminating against any group or person. This includes the use of slurs.
--   Spamming. This includes adverts, large amounts of repetitive messages, sending invites to users without asking (invite spam), etc.
--   Trolling; intentionally derailing conversations or producing discussions on non-issues.
--   Doxing: The disclosure of others' private information without their consent.
--   Sharing leaked proprietary source code from Discord Inc.: It is forbidden to share leaked proprietary source code from Discord Inc. Violation may lead to ban and legal consequences.
--   Posting media that may cause harm or be triggering to other people. For example, people with photosensitive epilepsy may experience seizures from animations with rapidly changing or flashing colours.
--   Actively suppressing opinions of other users.
--   Being an undesired bot (bots are undesired if not approved by moderation), or adding an undesired bot to a community.
--   Ban evasion (creation of additional accounts to join a community after having been banned from that room).
--   If you are a moderator or otherwise have permissions above those of normal users: abusing your permissions for personal motives not compatible with this code of conduct.
--   Continued harassment of other users.
--   Posting explicit imagery (sexual content, displays of violence, etc.) or unwanted sexual or romantic advances towards other users.
--   Posting content that is illegal to publish or illegal to distribute without permission in Germany. This includes pro-Nazi content. The reason is that in certain cases, especially when it comes to copyright, the service provider (who might be me), may be held liable, and we do not wish to get into legal trouble.
--   Abusing loopholes in this code of conduct, for example doing something that is not explicitly covered by the prohibited behavior, yet is in conflict with the general idea of desirable behavior.
+-   Written warnings, followed by kicks or bans if repeated.
+-   If a violation is particularly egregious, an immediate kick or ban may be issued.
+-   Offending content may be removed
+-   Kicks and bans apply to all communities administered by the Fosscord maintainers group.
 
-### Consequences of violation
+### Reporting problems
 
--   Undesirable behavior will lead to warnings, and later on, if repeated too often, kicks or bans.
--   Prohibited behavior will, in most cases, directly lead to a kick or ban.
--   Any kind of violation can lead to removal of the offending content.
--   Kicks and bans apply to all communities administrated by Fosscord maintainers group.
+You may report any violation of this code of conduct to the Fosscord community team directly through Discord, private message or otherwise.
 
-If a moderator violates the code of conduct, make sure to point it out to the project management. This can lead to warnings and demotion of the moderator.
+If you believe us to be in violation of this code of conduct, please report it to someone in a higher position,
+or to many people on the team. Make sure to provide a direct quote from here to be as effective as possible.
 
-If one of the project managers violate the code of conduct, no such possibility exists. Thus, it is important to call us out, or make one of our friends, colleagues or moderators call us out. Further steps will then be discussed ad hoc.
+### Changes to this document
 
-### Changes to this code of conduct
-
-This code of conduct may be changed in order to enhance clarity and precision at any time, typically without notification.
+This code of conduct may be changed in order to enhance clarity and precision at any time. **Notification should be provided**
