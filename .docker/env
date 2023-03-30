@@ -1,1 +1,0 @@
-MONGO_URL=mongodb://mongo:27018/fosscord?readPreference=secondaryPreferred&replicaSet=rs0
