@@ -12,32 +12,32 @@ By contributing to any Spacebar projects (for example, through pull request) you
 
 ### Desirable Behaviour
 
-- If possible, provide assistance with Spacebar projects to other users.
-- Be respectful toward other's opinions and viewpoints.
-- Accepting responsibility and apologizing to those affected for our mistakes.
+-   If possible, provide assistance with Spacebar projects to other users.
+-   Be respectful toward other's opinions and viewpoints.
+-   Accepting responsibility and apologizing to those affected for our mistakes.
 
 ### Prohibited Behaviour
 
-- Sharing leaked, proprietary source code from Discord Inc
-- Homophobia, transphobia, etc, misgendering, deadnaming, assuming gender. You should use singular they/them when in doubt.
-- Threats of violence
-- Harassment
-- Spreading hateful, violent, or discriminatory ideologies or conspiracy theories, via media or text (including avatars and nicknames)
-- Trolling. Intentionally derailing conversations or producing discussions on non-issues.
-- Doxing. Disclosing other's private information without their consent.
-- Spamming. This includes sending advertisements, repeatedly sending meaningless content, sending server invites unrequested.
-- Sharing media that may cause harm or be triggering to others, such as flashing imagery or gore.
-- Undesired automation of services that may lead to a reduction in service quality. For example, API spam of a Spacebar instance.
-- Ban evasion. Creation of additional accounts used to join a community after being banned from that community.
-- Posting content that is illegal to publish or distribute in Germany.
-- Abusing loopholes in this code of conduct, or being in conflict with the goals of this code of conduct.
+1.  Sharing leaked, proprietary source code from Discord Inc
+2.  Homophobia, transphobia, etc, misgendering, deadnaming, assuming gender. You should use singular they/them when in doubt.
+3.  Threats of violence
+4.  Harassment
+5.  Spreading hateful, violent, or discriminatory ideologies or conspiracy theories, via media or text (including avatars and nicknames)
+6.  Trolling. Intentionally derailing conversations or producing discussions on non-issues.
+7.  Doxing. Disclosing other's private information without their consent.
+8.  Spamming. This includes sending advertisements, repeatedly sending meaningless content, sending server invites unrequested.
+9.  Sharing media that may cause harm or be triggering to others, such as flashing imagery or gore.
+10. Undesired automation of services that may lead to a reduction in service quality. For example, API spam of a Spacebar instance.
+11. Ban evasion. Creation of additional accounts used to join a community after being banned from that community.
+12. Posting content that is illegal to publish or distribute in Germany.
+13. Abusing loopholes in this code of conduct, or being in conflict with the goals of this code of conduct.
 
 ### Consequences of Violation
 
-- Written warnings, followed by kicks or bans if repeated.
-- If a violation is particularly egregious, an immediate kick or ban may be issued.
-- Offending content may be removed
-- Kicks and bans apply to all communities administered by the Spacebar maintainers group.
+-   Written warnings, followed by kicks or bans if repeated.
+-   If a violation is particularly egregious, an immediate kick or ban may be issued.
+-   Offending content may be removed
+-   Kicks and bans apply to all communities administered by the Spacebar maintainers group.
 
 ### Reporting problems
 
