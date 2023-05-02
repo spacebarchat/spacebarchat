@@ -1,0 +1,24 @@
+name: Trigger docs rebuild
+on:
+  push:
+    branches:
+      - master
+    files:
+      - 'CODE_OF_CONDUCT.md'
+
+jobs:
+  trigger_docs_rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger docs rebuild
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GH_TOKEN }}
+          script: |
+            const result = await github.rest.actions.createWorkflowDispatch({
+              owner: 'spacebarchat',
+              repo: 'docs',
+              workflow_id: 'build.yml',
+              ref: 'master'
+            })
+            console.log(result)
