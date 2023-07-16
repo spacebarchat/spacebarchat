@@ -8,11 +8,11 @@ Those are the guidelines for the Spacebar branding usage.
 
 ## Typography
 ### Logo and Headings
-**New Hero (Adobe)**
+**[New Hero](https://fonts.adobe.com/fonts/new-hero)**
 - Weight: 800 / Extrabold
 - Letter Spacing: -0.05em
 
 ### Text
-**Inter**
+**[Inter](https://fonts.google.com/specimen/Inter)**
 - Weight: *variable*
 - Letter Spacing: *default*
