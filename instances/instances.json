@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Spacebar",
+		"url": "https://spacebar.chat",
+		"description": "The official Spacebar instance.",
+		"image": "https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/png/Spacebar__Icon-Discord.png",
+		"display": true,
+		"verified": true,
+		"country": "eu",
+		"language": "en"
+	},
+	{
+		"name": "Fastbar",
+		"url": "https://greysilly7.xyz",
+		"description": "The best Spacebar instance with 95% uptime, running under on a NVME drive running with bleeding edge stuff <3",
+		"image": "https://github.com/greysilly7.png",
+		"display": true,
+		"verified": false
+	},
+	{
+		"name": "Bar Cat",
+		"url": "https://stilic.net",
+		"description": "An instance hosted on a French server with 99% uptime, good moderation and the latest Spacebar features.",
+		"display": true,
+		"verified": false
+	}
+]
