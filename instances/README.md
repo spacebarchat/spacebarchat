@@ -4,7 +4,7 @@ By adding your Spacebar instance to our list, it will show up on our website.
 
 ## How to
 1. Make sure your instance is in line with our [rules and guidelines](https://docs.spacebar.chat/contributing/instances/).
-2. Click [here](https://github.com/spacebarchat/spacebarchat/edit/main/instances/instances.json) to edit the instances.json file and add your instance to it. Make sure to follow the example below.
+2. Click [here](https://github.com/spacebarchat/spacebarchat/edit/master/instances/instances.json) to edit the instances.json file and add your instance to it. Make sure to follow the example below.
 
 ```json
 {
