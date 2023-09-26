@@ -24,7 +24,6 @@ Spacebar is a free, opensource selfhostable discord-compatible chat, voice and v
 * **Decentralized** (no abuse of power and doesn't have a single point of failure)
 * **Extendable** (secure and cross-platform plugin system)
 * **Themeable** (cross-platform theme system with design editor)
-* **Encrypted** (End to end encryption for secure and private conversation)
 * **Secure** (publicly audited and hosted FOSS software for transparent foundation in terms of security)
 
 Logo by [@ItsRealmy](https://github.com/ItsRealmy).
