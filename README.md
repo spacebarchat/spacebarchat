@@ -17,7 +17,6 @@
 
 Spacebar is a free, opensource selfhostable discord-compatible chat, voice and video platform.
 
-* **Discord-compatible** (Communicate with all friends who are "still" using [discord.com](https://discord.com))
 * **Selfhostable** ([Setup Docs](https://docs.spacebar.chat/setup/server))
 * **Open Source** ([GitHub Organization](https://github.com/spacebarchat))
 * **Configurable** (Configure every aspect and limits to your needs)
