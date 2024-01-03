@@ -54,7 +54,7 @@ We also mark issues as "Good first issues" if you're looking for things to get y
 
 ### License
 
-Copyright (C) 2021 Spacebar and Spacebar Contributors
+Copyright (C) 2021-2024 Spacebar and Spacebar Contributors
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
 published by the Free Software Foundation version 3 of the
