@@ -18,10 +18,13 @@
 		"verified": false
 	},
 	{
-		"name": "Bar Cat",
-		"url": "https://stilic.net",
-		"description": "An instance hosted on a French server with 99% uptime, good moderation and the latest Spacebar features.",
+		"name": "Vanilla Minigames",
+		"url": "https://vanillaminigames.net",
+		"description": "Just another Spacebar instance which is run by a vanilla-only Minecraft server.",
+		"image": "https://vanillaminigames.net/img/icon.png",
 		"display": true,
-		"verified": false
+		"verified": false,
+		"country": "de",
+		"language": "en"
 	}
 ]
