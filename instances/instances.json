@@ -11,8 +11,8 @@
 	},
 	{
 		"name": "Fastbar",
-		"url": "https://greysilly7.xyz",
-		"description": "The best Spacebar instance with 95% uptime, running under on a NVME drive running with bleeding edge stuff <3",
+		"url": "https://spacebar.greysilly7.xyz",
+		"description": "The best Spacebar instance with 95% uptime, running under on an NVME drive running with bleeding edge stuff <3",
 		"image": "https://github.com/greysilly7.png",
 		"display": true,
 		"verified": false
