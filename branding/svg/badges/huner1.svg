@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="72mm"
+   height="72mm"
+   viewBox="0 0 72 72"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="huner1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="1.2185097"
+     inkscape:cx="181.77943"
+     inkscape:cy="100.94298"
+     inkscape:window-width="1366"
+     inkscape:window-height="761"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#333333;stroke:#000000;stroke-width:1.02577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path8"
+       cx="36.037346"
+       cy="13.883872"
+       rx="9.8914957"
+       ry="6.7346349" />
+    <ellipse
+       style="fill:#333333;stroke:#000000;stroke-width:0.57897;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path8-2"
+       cx="35.867153"
+       cy="25.568859"
+       rx="5.5829792"
+       ry="3.8011773" />
+    <ellipse
+       style="fill:#333333;stroke:#000000;stroke-width:1.37781;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path8-2-7"
+       cx="43.743732"
+       cy="-36.076801"
+       rx="13.286166"
+       ry="9.0459003"
+       transform="rotate(90)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.02577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 44.034727,33.87732 55.399423,26.511313 57.083082,14.93616"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.02577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 45.507928,40.611955 59.187657,38.296924 69.289608,29.878629"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.02577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 45.087015,51.134821 H 59.398113 L 69.500065,48.81979"
+       id="path11" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.02577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 27.575801,34.215468 16.211105,26.849461 14.527446,15.274307"
+       id="path9-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.02577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 26.1026,40.950103 12.422871,38.635072 2.3209199,30.216777"
+       id="path10-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.02577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 26.523512,51.472969 H 12.212415 L 2.1104634,49.157938"
+       id="path11-7" />
+  </g>
+</svg>
