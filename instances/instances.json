@@ -19,9 +19,9 @@
 	},
 	{
 		"name": "Vanilla Minigames",
-		"url": "https://vanillaminigames.net",
+		"url": "https://chat.booky.dev",
 		"description": "Just another Spacebar instance which is run by a vanilla-only Minecraft server.",
-		"image": "https://vanillaminigames.net/img/icon.png",
+		"image": "https://booky.dev/vm_favicon.png",
 		"display": true,
 		"verified": false,
 		"country": "de",
