@@ -29,7 +29,7 @@ By contributing to any Spacebar projects (for example, through pull request) you
 9.  Sharing media that may cause harm or be triggering to others, such as flashing imagery or gore.
 10. Undesired automation of services that may lead to a reduction in service quality. For example, API spam of a Spacebar instance.
 11. Ban evasion. Creation of additional accounts used to join a community after being banned from that community.
-12. Posting content that is illegal to publish or distribute in Germany.
+12. Posting content that is illegal to possess, or publish, in most of the EU.
 13. Abusing loopholes in this code of conduct, or being in conflict with the goals of this code of conduct.
 
 ### Consequences of Violation
