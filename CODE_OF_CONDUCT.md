@@ -6,7 +6,7 @@ This code of conduct is based on the Artemis Lena Code of Conduct by FantasyCook
 it may be used by other communities in modified or unmodified form without permission from the author.
 Its purpose is to ensure a civilised, tolerant, compassionate, helpful, pluralistic, and peaceful style of communication.
 
-Spacebar community spaces includes Spacebar github repositories and Spacebar development guilds (be it on Discord.com or Spacebar instances mananged by the Spacebar maintainers group).
+Spacebar community spaces includes Spacebar github repositories and Spacebar development guilds (be it on Discord.com or Spacebar instances managed by the Spacebar maintainers group).
 
 By contributing to any Spacebar projects (for example, through pull request) you guarantee that you have the rights to resign all rights to Spacebar under the AGPLV3 license.
 
