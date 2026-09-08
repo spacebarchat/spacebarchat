@@ -16,15 +16,5 @@
 		"image": "https://spacebar.greysilly7.xyz/logo.png",
 		"display": true,
 		"verified": false
-	},
-	{
-		"name": "Vanilla Minigames",
-		"url": "https://chat.booky.dev",
-		"description": "Just another Spacebar instance which is run by a vanilla-only Minecraft server.",
-		"image": "https://booky.dev/vm_favicon.png",
-		"display": true,
-		"verified": false,
-		"country": "de",
-		"language": "en"
 	}
 ]
