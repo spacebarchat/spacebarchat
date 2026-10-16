@@ -17,4 +17,14 @@
 		"display": true,
 		"verified": false
 	}
+	{
+		"name": "Canary Chat",
+		"url": "https://chat.quizzity.tech",
+		"description": "Canary Chat ",
+		"image": "https://raw.githubusercontent.com/ADSChat/ClientADS/refs/heads/main/logo.png",
+		"display": true,
+		"verified": false,
+		"country": "au",
+		"language": "en"
+	}
 ]
